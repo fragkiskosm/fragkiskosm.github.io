@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://www.cs.cmu.edu/~kijungs/codes/kcore/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Sensitivity of Community Structure</title>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./bootstrap.min.css" rel="stylesheet">
+<style>
+	.navbar{ background-color:#000; color:#ffffff;}
+	.navbar a{color:#fff; }
+	.navbar a:hover, .navbar a:focus{background-color:#ddd !important; color:#fffff; }
+	.navblank{height:50px; }
+	.navbar .navbar-toggle>.icon-bar{background-color:#ffffff; }
+	.navbar .navbar-toggle:hover>.icon-bar{background-color:#ffffff; }
+	.title_box{background-color:#10712C;}
+	.title_box h1{color: #fff; text-shadow: 1pt 1pt 1pt #000; font-size: 45px;}
+	.title_box .description{text-align:justify; color:white; text-shadow: 1px 1px 0px #000; font-size:13pt; }
+	.table>tbody>tr:nth-child(even){background-color:#E5F5E9; }
+	 table.table{border-top: 1px solid #eee; }
+	.table_scrollable{overflow:auto; }
+	h2{font-size: 25pt; color:#10712C; padding-top: 80px; margin-top: -80px; }
+	@media screen and (min-width: 768px)
+	.title_box.jumbotron h1, .title_box.jumbotron .h1 {
+	font-size: 50px;
+	}
+	body {
+		  font-family:      Georgia, Arial, sans-serif;
+		  font-size:        medium;
+		  font-weight:      normal;
+	}
+	#emp {font-weight: bold;}
+</style>
+</head>
+<body data-pinterest-extension-installed="cr1.40">
+
+<a name="home"></a>
+
+
+
+<nav class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#home">Communities_Sensitivity</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#overview">Abstract</a></li>
+		<li><a href="#code">Code</a></li>
+		<li><a href="#datasets">Datasets</a></li>
+		<li><a href="#experiments">Experiments</a></li>
+		<li><a href="#people">People</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="navblank">
+</div>
+
+<div class="title_box jumbotron">
+	<div class="container">
+		<h1>Sensitivity of Community Structure to Network Uncertainty</h1>
+		<div class="description">
+		</div>
+	</div>
+</div>
+
+<div class="container">
+
+	
+	<div class="content_box">
+		<a name="abstract"></a>
+		<h2>Overview </h2>
+		Community detection constitutes an important task for investigating the internal structure of networks, with a plethora of applications in a wide range of disciplines. A particularly important point, which is rarely taken into account while developing community detection algorithms, is their sensitivity (or stability) to network uncertainty. In many cases, the input graph data is incomplete or noisy (e.g., due to noise introduced during the collection of the data or for privacy preserving reasons). Then, the following question arises: how stable are the results produced by an algorithm with respect to the uncertainty (i.e., noise level) of the input data? In this paper, we propose a quantitative way to address this problem.We have considered several graph perturbation models to introduce uncertainty to the graph. Then, we examine the sensitivity of an algorithm, with
+		respect to functional and structural characteristics of the detected communities under various perturbation levels. We have studied the performance of some of the most widely used community detection algorithms in practice, and our experimental results indicate that random walk based community detection algorithms tend to be robust under various conditions of network uncertainty.
+		
+		<br><br>
+		<br>
+		<a name="code"></a>
+		<h2>Code </h2>
+		
+		<span id="emp">Communities_Sensitivity: </span> <a href="https://github.com/fragkiskosm/Communities_Sensitivity">Github Repository</a><br> <br> <br>
+		
+		<br>
+		<a name="datasets"></a>
+		<h2>Datasets </h2>
+		<div class="table_scrollable">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Name</th><th>#Nodes</th><th>#Edges</th><th>Type</th><th>Source</th><th>Download</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Ca-Gr-Qc</td><td>5.24K</td><td>28.98K</td><td>Co-authorship graph</td>
+						<td><a href="http://snap.stanford.edu/data/ca-GrQc.html">SNAP</a></td>
+						<td><a href="http://snap.stanford.edu/data/ca-GrQc.txt.gz">Link</a></td>
+					</tr>
+					<tr>
+						<td>Ca-Hep-Th</td><td>9.87K</td><td>51.97K</td><td>Co-authorship graph</td>
+						<td><a href="http://snap.stanford.edu/data/cit-HepTh.html">SNAP</a></td>
+						<td><a href="http://snap.stanford.edu/data/cit-HepTh.txt.gz">Link</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<br>
+		<a name="people"></a>
+		<h2>People</h2>
+		<ul>
+			<li> 	
+				Marc Mitri (Ecole Polytechnque)
+			</li>
+			<li> 
+				Fragkiskos D. Malliaros (UC San Diego)
+			</li>
+			<li> 
+				Michalis Vazirgiannis (Ecole Polytechnque)
+			</li>
+		</ul>
+
+	</div>	
+
+</div>
+
+
+<div class="navblank">
+</div>
+<div class="navblank">
+</div>
+
+<script type="text/javascript" src="./CoreScope_files/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="./CoreScope_files/bootstrap.min.js"></script>
+<script src="./CoreScope_files/highcharts.js"></script>
+<script src="./CoreScope_files/exporting.js"></script>
+
+
+</body></html>
