@@ -1,169 +1,183 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://www.cs.cmu.edu/~kijungs/codes/kcore/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Sensitivity of Community Structure</title>
-<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="./bootstrap.min.css" rel="stylesheet">
-<style>
-	.navbar{ background-color:#000; color:#ffffff;}
-	.navbar a{color:#fff; }
-	.navbar a:hover, .navbar a:focus{background-color:#ddd !important; color:#fffff; }
-	.navblank{height:50px; }
-	.navbar .navbar-toggle>.icon-bar{background-color:#ffffff; }
-	.navbar .navbar-toggle:hover>.icon-bar{background-color:#ffffff; }
-	.title_box{background-color:#10712C;}
-	.title_box h1{color: #fff; text-shadow: 1pt 1pt 1pt #000; font-size: 45px;}
-	.title_box .description{text-align:justify; color:white; text-shadow: 1px 1px 0px #000; font-size:13pt; }
-	.table>tbody>tr:nth-child(even){background-color:#E5F5E9; }
-	 table.table{border-top: 1px solid #eee; }
-	.table_scrollable{overflow:auto; }
-	h2{font-size: 25pt; color:#10712C; padding-top: 80px; margin-top: -80px; }
-	@media screen and (min-width: 768px)
-	.title_box.jumbotron h1, .title_box.jumbotron .h1 {
-	font-size: 50px;
-	}
-	body {
-		  font-family:      Georgia, Arial, sans-serif;
-		  font-size:        medium;
-		  font-weight:      normal;
-	}
-	#emp {font-weight: bold;}
-</style>
-</head>
-<body data-pinterest-extension-installed="cr1.40">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Sensitivity of Community Structure</title>
+		<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="./static/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
 
-<a name="home"></a>
+	<body data-pinterest-extension-installed="cr1.40">
+		<a name="home"></a>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  	<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+			      	<a class="navbar-brand" href="#home"><strong>Communities_Sensitivity</strong></a>
+			    </div>
 
-
-
-<nav class="navbar navbar-fixed-top" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#home">Communities_Sensitivity</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#overview">Abstract</a></li>
-		<li><a href="#code">Code</a></li>
-		<li><a href="#datasets">Datasets</a></li>
-		<li><a href="#experiments">Experiments</a></li>
-		<li><a href="#people">People</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      	<ul class="nav navbar-nav navbar-right">
+				        <li><a href="#overview"><span class="fa fa-bookmark-o"></span> Abstract</a></li>
+						<li><a href="#code"><span class="fa fa-code"></span> Code</a></li>
+						<li><a href="#datasets"><span class="fa fa-book"></span> Datasets</a></li>
+						<li><a href="#experiments"><span class="fa fa-cogs"></span> Experiments</a></li>
+						<li><a href="#people"><span class="fa fa-users"></span> People</a></li>
+			      	</ul>
+			    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 
 
-<div class="navblank">
-</div>
-
-<div class="title_box jumbotron">
-	<div class="container">
-		<h1>Sensitivity of Community Structure to Network Uncertainty</h1>
-		<div class="description">
-		</div>
-	</div>
-</div>
-
-<div class="container">
-
-	
-	<div class="content_box">
-		<a name="abstract"></a>
-		<h2>Overview </h2>
-		Community detection constitutes an important task for investigating the internal structure of networks, with a plethora of applications in a wide range of disciplines. A particularly important point, which is rarely taken into account while developing community detection algorithms, is their sensitivity (or stability) to network uncertainty. In many cases, the input graph data is incomplete or noisy (e.g., due to noise introduced during the collection of the data or for privacy preserving reasons). Then, the following question arises: how stable are the results produced by an algorithm with respect to the uncertainty (i.e., noise level) of the input data? In this paper, we propose a quantitative way to address this problem.We have considered several graph perturbation models to introduce uncertainty to the graph. Then, we examine the sensitivity of an algorithm, with
-		respect to functional and structural characteristics of the detected communities under various perturbation levels. We have studied the performance of some of the most widely used community detection algorithms in practice, and our experimental results indicate that random walk based community detection algorithms tend to be robust under various conditions of network uncertainty.
-		
-		<br><br>
-		<br>
-		<a name="code"></a>
-		<h2>Code </h2>
-		
-		<span id="emp">Communities_Sensitivity: </span> <a href="https://github.com/fragkiskosm/Communities_Sensitivity">Github Repository</a><br> <br> <br>
-		
-		<br>
-		<a name="datasets"></a>
-		<h2>Datasets </h2>
-		<div class="table_scrollable">
-			<table class="table">
-				<thead>
-					<tr>
-						<th>Name</th><th>#Nodes</th><th>#Edges</th><th>Type</th><th>Source</th><th>Download</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Ca-Gr-Qc</td><td>5.24K</td><td>28.98K</td><td>Co-authorship graph</td>
-						<td><a href="http://snap.stanford.edu/data/ca-GrQc.html">SNAP</a></td>
-						<td><a href="http://snap.stanford.edu/data/ca-GrQc.txt.gz">Link</a></td>
-					</tr>
-					<tr>
-						<td>Ca-Hep-Th</td><td>9.87K</td><td>51.97K</td><td>Co-authorship graph</td>
-						<td><a href="http://snap.stanford.edu/data/cit-HepTh.html">SNAP</a></td>
-						<td><a href="http://snap.stanford.edu/data/cit-HepTh.txt.gz">Link</a></td>
-					</tr>
-					<tr>
-						<td>Wiki-Vote</td><td>7.11K</td><td>103.68K</td><td>Wikipedia who-votes-whom graph</td>
-						<td><a href="http://snap.stanford.edu/data/wiki-Vote.html">SNAP</a></td>
-						<td><a href="http://snap.stanford.edu/data/wiki-Vote.txt.gz">Link</a></td>
-					</tr>
-					<tr>
-						<td>AS-Caida</td><td>16.30K</td><td>65.91K</td><td>Autonomous systems internet graph</td>
-						<td><a href="http://snap.stanford.edu/data/as-caida.html">SNAP</a></td>
-						<td><a href="http://snap.stanford.edu/data/as-caida20071105.txt.gz">Link</a></td>
-					</tr>										
-				</tbody>
-			</table>
+		<div class="navblank">
 		</div>
 
+		<div class="title_box jumbotron">
+			<div class="container">
+				<h1 class="text-center">Sensitivity of Community Structure to <br>Network Uncertainty</h1>
+				<div class="description"></div>
+			</div>
+		</div>
 
-		<br>
-		<a name="experiments"></a>
-		<h2>Experiments</h2>
-		
-			All the experiments are presented in the following pdf file: <a href="figures/Supplementary_Material.pdf">Supplementary_Material.pdf</a><br> <br> <br>
-			
+		<div class="container">		
+			<div class="content_box">
+				<a name="overview"></a>
+				<h2><span class="fa fa-bookmark-o"></span> Overview </h2>
+				<blockquote class="text-justify"><p>Community detection constitutes an important task for investigating the internal structure of networks, with a plethora of applications in a wide range of disciplines. A particularly important point, which is rarely taken into account while developing community detection algorithms, is their sensitivity (or stability) to network uncertainty. In many cases, the input graph data is incomplete or noisy (e.g., due to noise introduced during the collection of the data or for privacy preserving reasons). Then, the following question arises: how stable are the results produced by an algorithm with respect to the uncertainty (i.e., noise level) of the input data? In this paper, we propose a quantitative way to address this problem.We have considered several graph perturbation models to introduce uncertainty to the graph. Then, we examine the sensitivity of an algorithm, with
+				respect to functional and structural characteristics of the detected communities under various perturbation levels. We have studied the performance of some of the most widely used community detection algorithms in practice, and our experimental results indicate that random walk based community detection algorithms tend to be robust under various conditions of network uncertainty.</p>
+				</blockquote>
+				
+				<br><br>
+				<a name="code"></a>
+				<h2><span class="fa fa-code"></span> Code </h2>
+				
+				<span id="emp">Communities_Sensitivity: </span> <a href="https://github.com/fragkiskosm/Communities_Sensitivity"><span class="fa fa-github"></span> Github Repository</a><br> <br> <br>
+				
+				<br><br>
+				<a name="datasets"></a>
+				<h2><span class="fa fa-book"></span> Datasets </h2>
+				<div class="table_scrollable">
+					<table class="table">
+						<thead>
+							<tr>
+								<th class="text-success">Name</th>
+								<th class="text-success">#Nodes</th>
+								<th class="text-success">#Edges</th>
+								<th class="text-success">Type</th>
+								<th class="text-success">Source</th>
+								<th class="text-success">Download</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="#Ca-Gr-Qc">Ca-Gr-Qc</a></td><td>5.24K</td><td>28.98K</td><td>Co-authorship graph</td>
+								<td><a href="http://snap.stanford.edu/data/ca-GrQc.html">SNAP</a></td>
+								<td><a href="http://snap.stanford.edu/data/ca-GrQc.txt.gz" class="btn btn-toolbar btn-md"><span class="fa fa-download"></span> Link</a></td>
+							</tr>
+							<tr>
+								<td><a href="#Ca-Hep-Th">Ca-Hep-Th</a></td><td>9.87K</td><td>51.97K</td><td>Co-authorship graph</td>
+								<td><a href="http://snap.stanford.edu/data/cit-HepTh.html">SNAP</a></td>
+								<td><a href="http://snap.stanford.edu/data/cit-HepTh.txt.gz" class="btn btn-toolbar btn-md"><span class="fa fa-download"></span> Link</a></td>
+							</tr>
+							<tr>
+								<td><a href="#Wiki-Vote">Wiki-Vote</a></td><td>7.11K</td><td>103.68K</td><td>Wikipedia who-votes-whom graph</td>
+								<td><a href="http://snap.stanford.edu/data/wiki-Vote.html">SNAP</a></td>
+								<td><a href="http://snap.stanford.edu/data/wiki-Vote.txt.gz" class="btn btn-toolbar btn-md"><span class="fa fa-download"></span> Link</a></td>
+							</tr>
+							<tr>
+								<td><a href="#AS-Caida">AS-Caida</a></td><td>16.30K</td><td>65.91K</td><td>Autonomous systems internet graph</td>
+								<td><a href="http://snap.stanford.edu/data/as-caida.html">SNAP</a></td>
+								<td><a href="http://snap.stanford.edu/data/as-caida20071105.txt.gz" class="btn btn-toolbar btn-md"><span class="fa fa-download"></span> Link</a></td>
+							</tr>										
+						</tbody>
+					</table>
+				</div>
 
+				<br><br>
+				<a name="experiments"></a>
+				<h2><span class="fa fa-cogs"></span> Experiments</h2>
+	            <div id="experiments_area">
+	            	<!--append experiments.json via JavaScript-->
+	            </div>
 
-		<br> <br>
-		<a name="people"></a>
-		<h2>People</h2>
-		<ul>
-			<li> 	
-				Marc Mitri (Ecole Polytechnique)
-			</li>
-			<li> 
-				Fragkiskos D. Malliaros (UC San Diego)
-			</li>
-			<li> 
-				Michalis Vazirgiannis (Ecole Polytechnique)
-			</li>
-		</ul>
+				<br><br>
+				<div >
+					<a name="people"></a>
+					<h2><span class="fa fa-users"></span> People</h2>
+					<ul>
+						<li> 	
+							Marc Mitri (Ecole Polytechnique)
+						</li>
+						<li> 
+							Fragkiskos D. Malliaros (UC San Diego)
+						</li>
+						<li> 
+							Michalis Vazirgiannis (Ecole Polytechnique)
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div class="navblank"></div>
+		<div class="navblank"></div>
+		<footer></footer>
 
-	</div>	
+		<script type="text/javascript" src="./static/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var html = "";
 
-</div>
+                $.ajax({
+                    type: "GET",
+                    url: "experiments.json",
+                    contentType: 'application/json',
+                    success: function (experiments) {           			
+                		for (var i in experiments)
+	                		html += [
+				            	'<h3 id="' + i + '">' + i + ' dataset</h3>',
+					            '<div class="row col-sm-12 col-md-12 col-xs-12 col-lg-12 margin-bottom-25">',
+					                '<div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">',
+					                    '<div style="width: 100%; padding: 30px; float: left; margin: 4px" class="thumbnail" >',
+					                        '<span style="vertical-align: middle;" class="fa fa-file-pdf-o text-danger"></span> ',
+					                        '<span>' + experiments[i].functional.title + '</span>',
+    					                    '<object data="./' + experiments[i].functional.url + '" type="application/pdf" width="100%" height="380">',
+										        '<embed src="./' + experiments[i].functional.url + '" type="application/pdf" />',
+										    '</object>',
+					                    '</div>',
+					                '</div>',
+				                	'<div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">',
+					                    '<div style="width: 100%; padding: 30px; float: left; margin: 4px" class="thumbnail" >',
+					                        '<span style="vertical-align: middle;" class="fa fa-file-pdf-o text-danger"></span> ',
+					                        '<span>' + experiments[i].structural.title + '</span>',
+    					                    '<object data="./' + experiments[i].structural.url + '" type="application/pdf" width="100%" height="380">',
+										        '<embed src="./' + experiments[i].structural.url + '" type="application/pdf" />',
+										    '</object>',
+					                    '</div>',
+					                '</div>',      
 
-
-<div class="navblank">
-</div>
-<div class="navblank">
-</div>
-
-<script type="text/javascript" src="./CoreScope_files/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="./CoreScope_files/bootstrap.min.js"></script>
-<script src="./CoreScope_files/highcharts.js"></script>
-<script src="./CoreScope_files/exporting.js"></script>
-
-
-</body></html>
+					            '</div>'
+	                		].join('');
+            			$("#experiments_area").html(html);
+                    },
+                    error: function (response) {
+                        console.log(response);
+                    },
+                    complete: function () {
+                    	//;
+                    }
+                });				
+			})
+		</script>
+	</body>
+</html>
