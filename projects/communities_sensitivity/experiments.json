@@ -1,0 +1,42 @@
+{
+    "Ca-Gr-Qc": {
+        "functional": {
+            "title": "Ca-Gr-Qc functional",
+            "url": "/figures/Ca-Gr-Qc_functional.pdf"
+        },
+        "structural": {
+            "title": "Ca-Gr-Qc structural",
+            "url": "/figures/Ca-Gr-Qc_structural.pdf"
+        }
+    },
+    "Ca-Hep-Th": {
+        "functional": {
+            "title": "Ca-Hep-Th functional",
+            "url": "/figures/Ca-Hep-Th_functional.pdf"
+        },
+        "structural": {
+            "title": "Ca-Hep-Th structural",
+            "url": "/figures/Ca-Hep-Th_structural.pdf"
+        }
+    },
+    "Wiki-Vote": {
+        "functional": {
+            "title": "Wiki-Vote functional",
+            "url": "/figures/Wiki-Vote_functional.pdf"
+        },
+        "structural": {
+            "title": "Wiki-Vote structural",
+            "url": "/figures/Wiki-Vote_structural.pdf"
+        }
+    },
+    "AS-Caida": {
+        "functional": {
+            "title": "AS-Caida functional",
+            "url": "/figures/AS-Caida_functional.pdf"
+        },
+        "structural": {
+            "title": "AS-Caida structural",
+            "url": "/figures/AS-Caida_structural.pdf"
+        }
+    }
+}
