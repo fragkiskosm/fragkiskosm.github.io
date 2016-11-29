@@ -38,5 +38,15 @@
             "title": "AS-Caida structural analysis",
             "url": "/figures/AS-Caida_structural.pdf"
         }
-    }
+    },
+    "p2p-Gnutela":{
+        "functional": {
+        "title": "p2p-Gnutela functional analysis",
+        "url": "/figures/p2p-Gnutella_functional.pdf"
+        },
+        "structural": {
+        "title": "p2p-Gnutela structural analysis",
+        "url": "/figures/p2p-Gnutella_structural.pdf"
+        }
+    }     
 }
