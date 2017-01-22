@@ -44,33 +44,6 @@
         <!-- PRINT CSS -->
         <link type="text/css" rel="stylesheet" href="./static/css/print.css" media="print">
 
-
-
-        <<script type="text/javascript" charset="utf-8">
-            $(document).ready(function(){
-                //
-                // Collapse the `fa` icons in News section
-                //
-                $('.collapse_news_icon').click(function(){
-                    if ($(this).hasClass('fa-minus-circle'))
-                    {
-                        $(this).addClass('fa-plus-circle').removeClass('fa-minus-circle');
-                    }
-                    else {
-                        $(this).removeClass('fa-plus-circle').addClass('fa-minus-circle');
-                    }
-                });
-                //
-                // Hover feature
-                //
-                $(".custom-fa-stack-format").mouseover(function(){
-                    $(this).find($('.fa-stack-2x')).removeClass('text-info').css('color', "#15506d");
-                }).mouseleave(function(){
-                    $(this).find($('.fa-stack-2x')).css('color', '#3a87ad');
-                });
-            });
-        </script>
-
     </head>
 
 
