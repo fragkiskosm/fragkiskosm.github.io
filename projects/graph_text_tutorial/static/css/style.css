@@ -16,6 +16,9 @@
 .title_box h1{
   color: #fff; text-shadow: 1pt 1pt 1pt #000; font-size: 45px;
 }
+.title_box h2{
+  color: #fff; text-shadow: 1pt 1pt 1pt #000; font-size: 35px;
+}
 .title_box .description{
   text-align:justify; color:white; text-shadow: 1px 1px 0px #000; font-size:13pt; 
 }
