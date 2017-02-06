@@ -1,5 +1,12 @@
 [
     {
+        "id": "news_7",
+        "date": "Feb 5, 2017",
+        "title": "I am co-chair of the <a href='http://http://ita.ucsd.edu/workshop/17'> 2017 Information Theory and Applications (ITA) Workshops</a>, in San Diego, February 12-17, 2017!",
+        "description": "",
+        "visible": 1
+    },
+    {
         "id": "news_6",
         "date": "Dec 22, 2016",
         "title": "Paper with Marc and Michalis accepted to the <a href='http://www.siam.org/meetings/sdm17/'> SDM 2017 </a> conference, that will be held in Houston, Texas, April 27-29, 2017!",
@@ -25,7 +32,7 @@
         "date": "Oct 3, 2016",
         "title": "I joined <a href='http://www.ucsd.edu/'>UC San Diego</a> as a <a href='http://datascience.ucsd.edu/'> data science</a> postdoctoral scholar!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_2",
@@ -39,6 +46,6 @@
         "date": "Sept 28, 2016",
         "title": "Our demo paper has been accepted at the <a href='icdm2016.eurecat.org'>ICDM 2016</a> conference, that will be held in Barcelona, Spain, December 12-15, 2016!",
         "description": "",
-        "visible": 1
+        "visible": 0
     }
 ]
