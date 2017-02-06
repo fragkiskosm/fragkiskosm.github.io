@@ -32,7 +32,7 @@
         "date": "Oct 3, 2016",
         "title": "I joined <a href='http://www.ucsd.edu/'>UC San Diego</a> as a <a href='http://datascience.ucsd.edu/'> data science</a> postdoctoral scholar!",
         "description": "",
-        "visible": 0
+        "visible": 1
     },
     {
         "id": "news_2",
@@ -46,6 +46,6 @@
         "date": "Sept 28, 2016",
         "title": "Our demo paper has been accepted at the <a href='icdm2016.eurecat.org'>ICDM 2016</a> conference, that will be held in Barcelona, Spain, December 12-15, 2016!",
         "description": "",
-        "visible": 0
+        "visible": 1
     }
 ]
