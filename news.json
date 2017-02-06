@@ -1,8 +1,15 @@
 [
     {
-        "id": "news_7",
+        "id": "news_8",
         "date": "Feb 5, 2017",
         "title": "I am co-chair of the <a href='http://http://ita.ucsd.edu/workshop/17'> 2017 Information Theory and Applications (ITA) Workshops</a>, in San Diego, February 12-17, 2017!",
+        "description": "",
+        "visible": 1
+    },
+    {
+        "id": "news_7",
+        "date": "Jan 15, 2017",
+        "title": "I will be on the program committee of <a href='http://ijcai-17.org/'>IJCAI 2017</a>!",
         "description": "",
         "visible": 1
     },
