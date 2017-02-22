@@ -1,5 +1,12 @@
 [
     {
+        "id": "news_10",
+        "date": "Feb 22, 2017",
+        "title": "I will be teaching a new graduate-level course on <i>Graph Mining and Network Analysis</i> at UC San Diego at Spring Quarter 2017!",
+        "description": "",
+        "visible": 1
+    },
+    {
         "id": "news_9",
         "date": "Feb 5, 2017",
         "title": "I am co-chair of the <a href='http://ita.ucsd.edu/workshop/17'> 2017 Information Theory and Applications (ITA) Workshop</a>, in San Diego, February 12-17, 2017!",
@@ -53,7 +60,7 @@
         "date": "Sept 14, 2016",
         "title": "I will be on the program committee of <a href='http://www.aaai.org/Conferences/AAAI/aaai17.php'>AAAI 2017</a>!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_1",
