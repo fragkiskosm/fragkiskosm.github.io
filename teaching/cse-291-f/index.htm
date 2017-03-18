@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>CSE 291F</title>
+		<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="./static/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+
+	<body data-pinterest-extension-installed="cr1.40">
+		<a name="home"></a>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  	<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+			      	<a class="navbar-brand" href="#home"><strong>CSE-291F - UC San Diego</strong></a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      	<ul class="nav navbar-nav navbar-right">
+				        <li><a href="#overview"><span class="fa fa-bookmark-o"></span> Overview</a></li>
+						<li><a href="#lectures"><span class="fa fa-calendar-check-o"></span> Schedule and Lectures</a></li>
+						<li><a href="#structure"><span class="fa fa-file-text-o"></span>  Course Structure</a></li>
+						<li><a href="#project"><span class="fa fa-cogs"></span> Project</a></li>
+						<li><a href="#resources"><span class="fa fa-external-link"></span> Resources</a></li>
+			      	</ul>
+			    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+
+		<div class="navblank">
+		</div>
+
+		<div class="title_box jumbotron">
+			<div class="container">
+				<h1>CSE-291F: Graph Mining and Network Analysis</h1>			
+				<div class="description"></div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="content_box">
+				<a name="overview"></a>
+				<h2><span class="fa fa-bookmark-o"></span> Course Overview </h2>
+				<blockquote class="text-justify"><p> 
+				<b>General Info:</b> Graduate-level course, CSE Dept., UC San Diego, Spring quarter 2017  </br></br>
+				<b>Lecture hours:</b> Tuesday and Thursday, 18:30 - 19:50 </br>
+				<b>Lecture room: </b>  PCYNH 106 </br> </br>
+				<b>Instructor:</b> <a href="http://fragkiskos.me">Fragkiskos Malliaros</a> </br>
+				<b>Email:</b> fmalliaros [at] eng.ucsd.edu </br>
+				<b>Office hours:</b> TBA</br> </br>
+
+				<b>TA:</b> Mohammad Motiei </br>
+				<b>Email:</b> mmotiei [at] eng.ucsd.edu </br>
+				<b>Office hours:</b> TBA</br> </br>
+
+				<b>Piazza:</b> <a href="http://piazza.com/ucsd/spring2017/cse291f/home">piazza.com/ucsd/spring2017/cse291f/home</a> </br>
+
+				</p>
+				</blockquote>
+				<br>
+				
+				<p align="justify">Networks (or graphs) have become ubiquitous as data from diverse disciplines can naturally be mapped to graph structures. Social networks, such as academic collaboration networks and interaction networks over online social networking applications are used to represent and model the social ties among individuals. Information networks, including the hyperlink structure of the Web and blog networks, have become crucial mediums for information dissemination, offering an effective way to represent content and navigate through it. A plethora of technological networks, including the Internet, power grids, telephone networks and road networks are an important part of everyday life. The problem of extracting meaningful information from large scale graph data in an efficient and effective way has become crucial and challenging with several important applications and towards this end, graph mining and analysis methods constitute prominent tools. The goal of this course is to present recent and state-of-the-art methods and algorithms for exploring, analyzing and mining large-scale networks, as well as their practical applications in various domains (e.g., social science, the web, biology). </p>
+				<br>
+				
+				
+
+
+				<br><br><br>
+				<a name="lectures"></a>
+				<h2><span class="fa fa-calendar-check-o"></span> Schedule and Lectures </h2>
+				The topics of the lectures are subject to change (the following schedule outlines the topics that will be covered in the course). The slides for each lecture will be posted on <a href="https://piazza.com/ucsd/spring2017/cse291f/home">piazza</a> just before the start of the class. </br></br>
+
+
+					<div class="table_scrollable">
+					<table class="table" width=100%>
+					<col width="5%" />
+					<col width="10%" />
+					<col width="43%" />
+					<col width="12%" />
+					<col width="27%" />
+						<thead>
+							<tr>
+								<th class="text-success">Week</th>
+								<th class="text-success">Date</th>
+								<th class="text-success">Topic</th>
+								<th class="text-success">Material</th>
+								<th class="text-success">Assignments/Project</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td><td>April 4</td><td>Introduction</td><td><a href="#lecture1">Lecture 1</a></td><td></td>
+							</tr>
+							<tr>
+								<td> </td><td>April 6</td><td>Graph theory, linear algebra and ML basics recap</td><td><a href="#lecture2">Lecture 2</a></td><td></td> </br>
+							</tr>
+							<tr>	
+								<td>2</td><td>April 11</td><td>Network properties and the random graph model</td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td> </td><td>April 13</td><td>Network generative models</td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td>3</td><td>April 18</td><td>Random walks and centrality criteria</td><td></td><td><b>Assignment 1 out</b></td>
+							</tr>
+							<tr>	
+								<td> </td><td>April 20</td><td>Link analysis algorithms (PageRank and HITS)</td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td>4</td><td>April 25</td><td>Project proposal short presentations (all teams)</td><td></td><td><b>Project proposal slides due (12:00 noon)</b></td>
+							</tr>
+							<tr>	
+								<td> </td><td>April 27</td><td>No class. Traveling to <a href="http://www.siam.org/meetings/sdm17/">SDM 2017</a>.</td><td></td><td><b>Project proposal due</b></td>
+							</tr>
+							<tr>	
+								<td>5</td><td>May 2</td><td>Graph clustering and community detection (Part I)</td><td></td><td><b>Assignment 1 due</b></td>
+							</tr>
+							<tr>	
+								<td> </td><td>May 4</td><td> Graph clustering and community detection (Part II) </td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td>6</td><td>May 9</td><td> Node similarity and link prediction </td><td></td><td><b>Assignment 2 out</b></td>
+							</tr>
+							<tr>	
+								<td> </td><td>May 11</td><td>Graph similarity, graph kernels and graph classification</td><td> </td><td></td>
+							</tr>
+							<tr>	
+								<td>7</td><td>May 16</td><td> Representation learning in graphs</td><td> </td><td></td>
+							</tr>
+							<tr>	
+								<td> </td><td>May 18</td><td>Influential spreaders and influence maximization</td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td>8</td><td>May 23</td><td>Anomaly detection</td><td> </td><td><b>Project progress report due</b></td>
+							</tr>
+							<tr>	
+								<td> </td><td>May 25</td><td>Graph sampling and summarization</td><td> </td><td></td>
+							</tr>
+							<tr>	
+								<td>9</td><td>May 30</td><td>Dense subgraph detection and applications</td><td> </td><td><b>Assignment 2 due</b></td>
+							</tr>
+							<tr>	
+								<td> </td><td>June 1</td><td>Rich network structures: signed, uncertain, multilayer graphs, geo-social and textual networks</td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td>10</td><td>June 6</td><td>Core decomposition in graphs</td><td></td><td></td>
+							</tr>
+							<tr>	
+								<td> </td><td>June 8</td><td>Project presentations (or poster session)</td><td></td><td><b>Project final report due on June 10</b></td>
+							</tr>
+						</tbody>
+					</table>
+
+				<!--
+				<span id="emp"></span> <a href="http://fragkiskosm.github.io/papers/Tutorial_Slides_ICDM_2016.pdf"> Tutorial_Slides</a><br> <br> <br> --><br>
+				
+				</br>
+
+
+				</br>
+				<a name="lecture1"></a>
+				<h2><span class="fa  fa-files-o"></span> Lecture 1: Introduction</h2>
+				Introduction to graph mining and network analysis, administrivia, course structure and overview of the topics that will be covered in the course. </br></br>
+
+				Reading: 
+				<ul>
+					<li> <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/">Networks, crowds, and markets</a> (chapter 1)
+					<li> <a href="https://arxiv.org/pdf/cond-mat/0303516v1.pdf">The structure and function of complex networks </a> (sections I and II)
+					<li> <a href="http://barabasi.com/networksciencebook/">Network science </a> (chapter 1)
+				</ul>
+				</br>
+
+				<a name="lecture2"></a>
+				<h2><span class="fa  fa-files-o"></span> Lecture 2: Graph theory, linear algebra and ML basics recap</h2>
+				Presentation of basic concepts in graph theory, linear algebra and machine learning that will be used throughout the course. 
+				</br></br>
+
+				Reading: 
+				<ul>
+					<li> <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/">Networks, crowds, and markets</a> (chapter 2)
+					<li> <a href="http://dmml.asu.edu/smm/book/">Social media mining</a> (chapters 2 and 5)
+					<li> <a href="https://web.stanford.edu/class/cs224w/recitation/proof_techniques.pdf">Notes in linear algebra, probability, and proof techniques </a>
+					<li> <a href="http://cseweb.ucsd.edu/classes/wi17/cse258-a/slides/lecture3_annotated.pdf">Lecture 3</a>, <a href="http://cseweb.ucsd.edu/classes/wi17/cse258-a/slides/lecture4_annotated.pdf">Lecture 4 </a>	and <a href="http://cseweb.ucsd.edu/classes/wi17/cse258-a/slides/lecture5_annotated.pdf">Lecture 5 </a> from CSE 258 (Julian's course)
+				</ul>
+				</br></br>
+
+
+
+
+				<br><br>
+				<div >
+					<a name="structure"></a>
+					<h2><span class="fa fa-file-text-o"></span> Course Structure</h2>
+					
+					
+					<font color="#10712C" size="4"> <b>Learning objectives</b></font> </br></br> 
+					The course aims to introduce students to the field of graph mining and network analysis by:
+					<ul>
+					<li>Covering a wide range of topics, methodologies and related applications.
+					<li>Giving the students the opportunity to obtain hands-on experience on dealing with graph data and graph mining tasks.
+					</ul>
+					We expect that by the end of the course, the students will have a thorough understanding of various graph mining and learning tasks, will be able to analyze large-scale graph data as well as to formulate and solve problems that involve graph structures. </br></br></br>	
+
+					<p class='bd'>
+					<font color="#10712C" size="4"> <b>Prerequisites</b></font> </br></br> 
+					There is no official prerequisite for this course. However, the students are expected to: 
+					<ul>
+					<li> Have basic knowledge of graph theory and linear algebra.
+					<li> Be familiar with fundamental data mining and machine learning tasks (e.g., CSE 258).
+					<li> Be familiar with at least one programming language (e.g., Python or any language of their preference).
+					</ul>
+					In the second lecture, we will review basic concepts in graph theory, linear algebra and machine learning. </br></br></br>
+
+					<p class='bd'>
+					<font color="#10712C" size="4"> <b>Reading material</b></font> </br></br> 
+					Most of the material of the course is based on research articles. Some of the topics are also covered by the following books:
+					<ul>
+					<li> David Easley and Jon Kleinberg. <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/">Networks, Crowds, and Markets</and>. Cambridge University Press, 2010.
+					<li> Deepayan Chakrabarti and Christos Faloutsos. <a href="http://www.morganclaypool.com/doi/abs/10.2200/S00449ED1V01Y201209DMK006">Graph Mining: Laws, Tools, and Case Studies</a>. Synthesis Lectures on Data Mining and Knowledge Discovery, Morgan and Claypool Publishers, 2012.
+					<li> Reza Zafarani, Mohammad Ali Abbasi and Huan Liu. <a href="http://dmml.asu.edu/smm/book/">Social Media Mining</a>. Cambridge University Press, 2014.	
+					<li> Albert-Laszlo Barabasi. <a href="http://barabasi.com/networksciencebook/">Network Science</a>. Cambridge University Press, 2016.
+					</ul> </br></br>
+
+					<p class='bd'>
+					<font color="#10712C" size="4"> <b>Evaluation</b></font> </br></br> 
+					The evaluation of the course will be based on the following:
+					<ol> 
+					<li> <b>Two hands-on practical assignments:</b> the hands-on assignments will familiarize the students with basic graph mining and analysis tasks.
+					<li><b>Project:</b> this will be the main component for the evaluation of the course. The students are expected to form groups of 3-4 people, propose a topic for their project, and submit a final project report (it would also be interesting to organize a poster session at the end of the quarter). Please, read the <a href="#project">project</a> section for more details.
+					</ol> </br>
+
+					The grading will be as follows: </br></br>
+					<table  width=500>
+					<col width="25%" />
+					<col width="20%" />
+
+						<tbody>
+							<tr>
+								<td> <b>Assignment 1</b> (individual):</td> <td> 15%</td>
+							</tr>
+							<tr>
+								<td> <b>Assignment 2</b> (groups of 3-4 students):</td> <td> 35%</td>
+							</tr>
+							<td> <b>Project</b> (groups of 3-4 students):</td> <td> 50%</td>
+					</table>
+				</br></br>
+
+					<p class='bd'>
+					<font color="#10712C" size="4"> <b>Academic integrity</b></font> </br></br> 
+					UCSD and CSE's policies on academic integrity will be strictly enforced (please see <a href="http://academicintegrity.ucsd.edu/">here</a> and <a href="http://cseweb.ucsd.edu/~elkan/honesty.html">here</a>). In particular, all of your work must be your own. Some relevant excerpts from UCSD's policies are:
+					<ul>
+					<li> Don't copy another student's assignment, in part or in total, and submit it as your own work.
+					<li> Acknowledge and cite source material in your papers or assignments.
+					</ul> </br></br>
+
+				</div>
+
+
+
+				<br><br>
+				<div >
+					<a name="project"></a>
+					<h2><span class="fa fa-cogs"></span> Project</h2>
+					Details about the project will be posted here soon.
+				</div> </br></br>
+
+
+
+
+				<br><br>
+				<div >
+					<a name="resources"></a>
+					<h2><span class="fa fa-external-link"></span> Resources</h2>
+
+					<p class='bd'>
+					<font color="#10712C" size="4"> <b>Datasets</b></font> </br>
+
+					<ul>
+					<li> <a href="http://snap.stanford.edu/">Stanford Network Analysis Project (SNAP)</a>
+					<li> <a href="http://konect.uni-koblenz.de/">The Koblenz Network Collection (KONECT)</a>
+					<li> <a href="https://icon.colorado.edu/#!/">The Colorado Index of Complex Networks (ICON)</a>
+					<li> <a href="http://networkrepository.com/">The Network Data Repository</a> with interactive graph analytics and visualization.
+					<li> <a href="http://socialcomputing.asu.edu/pages/home">Social Computing Data Repository at Arizona State University</a>
+					<li> <a href="http://socialnetworks.mpi-sws.org/datasets.html">Datasets </a> from the Social Computing Research group at MPI-SWS.
+					<li> <a href="https://aminer.org/data">Datasets </a> from the AMiner academic social network.	
+					<li> <a href="http://www.icwsm.org/2016/datasets/datasets/">Datasets </a> from papers published in the  International AAAI Conference on Web and Social Media (ICWSM). Also, check the previous ICWSM conferences.
+					<li> <a href="http://www.stanford.edu/class/cs224w/resources.html">Datasets </a> from Jure Leskovec's class at Stanford.
+					<li> <a href="http://odysseas.calit2.uci.edu/doku.php/public:online_social_networks">Datasets </a> from online social networks by Athina Markopoulou (UC Irvine).
+					<li> <a href="http://www.emilio.ferrara.name/datasets/">Social media (Instagram and Facebook) </a> datasets by Emilio Ferrara (USC).
+					<li> <a href="http://www.kdd.org/kdd-cup">KDD cup archives</a>, uncluding a competition about Tencent Weibo (KDD is one of the premier data mining conferences). For this year (2017), the competition is currenty active and the topic is highway tollgates traffic flow prediction (using also the road network topology in the target area, among other data sources).
+					<li> <a href="http://www.eecs.wsu.edu/~yyao/StreamingGraphs.html">Graph datasets </a> by Yibo Yao (WSU).
+					<li> <a href="http://147.8.142.179/datazip/">Sina Weibo dataset </a> by Weiboscope (University of Hong Kong). Another Sina Weibo dataset by Tianchi can be found <a href="https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.Vggj52&raceId=5">here</a>.
+					<li> <a href="https://sites.google.com/site/yangdingqi/home/foursquare-dataset">Foursquare dataset </a> by Dingqi Yang (University of Fribourg).
+					<li> <a href="http://www.quanturb.com/data.html">Datasets </a> from the Spatial and Urban Networks group at CEA (Paris).	
+					<li> <a href="https://www.yelp.com/dataset_challenge">Yelp dataset challenge</a>
+					<li> <a href="https://www.kaggle.com/c/quora-question-pairs">Quora question pairs competition</a> in Kaggle (currently active).
+					<li> <a href="http://illimine.cs.uiuc.edu/">IlliMine repository</a> from the Data Mining Research Group at UIUC (some network datasets are also included).	
+
+						
+					</ul> </br>
+
+					<p class='bd'>
+					<font color="#10712C" size="4"> <b>Software tools</b></font> </br>
+
+					<ul>
+					<li> <a href="https://networkx.github.io/"> NetworkX</a>: Python software package for graph analytics
+					<li> <a href="http://igraph.wikidot.com/"> igraph</a>: collection of software packages for graph theory and network analysis (Python, C++ and R)	
+					<li> <a href="http://snap.stanford.edu/"> SNAP</a>: high performance system for the analysis of large network (C++ and Python)<li> <a href="https://gephi.org/"> Gephi</a>:  graph visualization and exploration software
+					</ul>
+
+				</div>
+			</div>	
+		</div>
+		<div class="navblank"></div>
+		<div class="navblank"></div>
+		<footer></footer>
+
+		<script type="text/javascript" src="./static/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
