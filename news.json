@@ -1,5 +1,12 @@
 [
     {
+        "id": "news_11",
+        "date": "July 24, 2017",
+        "title": "I will be on the program committee of <a href='https://www2018.thewebconf.org/'>WWW 2018</a> and <a href='https://aaai.org/Conferences/AAAI/aaai18.php'>AAAI 2018</a>!",
+        "description": "",
+        "visible": 1
+    },
+    {
         "id": "news_10",
         "date": "Feb 22, 2017",
         "title": "I will be teaching a new graduate-level course on <b>Graph Mining and Network Analysis</b> at UC San Diego, at the Spring Quarter 2017!",
