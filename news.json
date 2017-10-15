@@ -1,6 +1,12 @@
-[
+[    {
+        "id": "news_13",
+        "date": "October 15, 2017"
+        "title": "I am excited to be joining the Center for Visual Computing at <a href='http://www.centralesupelec.fr/en'>CentraleSupelec</a>, <a href='https://www.universite-paris-saclay.fr/en'>University of Paris-Saclay</a> as an Assistant Professor!",
+        "description": "",
+        "visible": 1
+    },
     {
-        "id": "news_11",
+        "id": "news_12",
         "date": "October 15, 2017",
         "title": "Three short papers were accepted to the <a href='http://complexnetworks.org/#home'> Complex Networks 2017 </a> conference, that will be held in Lyon, France, Nov 29 - Dec 1, 2017!",
         "description": "",
