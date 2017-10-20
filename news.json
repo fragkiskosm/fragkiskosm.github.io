@@ -52,14 +52,14 @@
         "date": "Jan 15, 2017",
         "title": "I will be on the program committee of <a href='http://ijcai-17.org/'>IJCAI 2017</a>!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_6",
         "date": "Dec 22, 2016",
         "title": "Paper with Marc and Michalis accepted to the <a href='http://www.siam.org/meetings/sdm17/'> SDM 2017 </a> conference, that will be held in Houston, Texas, April 27-29, 2017!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_5",
