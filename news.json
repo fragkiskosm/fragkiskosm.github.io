@@ -1,4 +1,10 @@
-[    
+[    {
+        "id": "news_14",
+        "date": "October 20, 2017",
+        "title": "An <b>internship position</b> in the area of <b>graph mining and learning</b> is available. Drop me an email if you are interested!",
+        "description": "",
+        "visible": 1
+    },
     {
         "id": "news_13",
         "date": "October 15, 2017",
@@ -25,7 +31,7 @@
         "date": "Feb 22, 2017",
         "title": "I will be teaching a new graduate-level course on <b>Graph Mining and Network Analysis</b> at UC San Diego, at the Spring Quarter 2017!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_9",
