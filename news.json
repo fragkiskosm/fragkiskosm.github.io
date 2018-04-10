@@ -1,4 +1,11 @@
 [{
+        "id": "news_16",
+        "date": "April 10, 2018",
+        "title": "Paper  with Konstantinos and Michalis was accepted to TextGraphs@NAACL-HLP 2018, New Orleans, Lousiana!",
+        "description": "",
+        "visible": 1
+    },
+{
         "id": "news_15",
         "date": "December 21, 2017",
         "title": "I am co-organizing the <a href='https://aminer.org/bignet_www2018'>3rd International Workshop on Learning Representations for Big Networks (BigNet 2018)</a>, co-located with the <a href= 'https://www2018.thewebconf.org/'>Web Conference 2018</a>, in Lyon, France, April 23, 2018 (with <a href='http://keg.cs.tsinghua.edu.cn/jietang/'>Jie Tang</a>, <a href='http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/'>Michalis Vazirgiannis</a> and <a href='https://ericdongyx.github.io/'>Yuxiao Dong</a>)!",
@@ -31,7 +38,7 @@
         "date": "July 24, 2017",
         "title": "I will be on the program committee of <a href='https://www2018.thewebconf.org/'>WWW 2018</a> and <a href='https://aaai.org/Conferences/AAAI/aaai18.php'>AAAI 2018</a>!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_10",
@@ -45,7 +52,7 @@
         "date": "Feb 5, 2017",
         "title": "I am co-chair of the <a href='http://ita.ucsd.edu/workshop/17'> 2017 Information Theory and Applications (ITA) Workshop</a>, in San Diego, February 12-17, 2017!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_8",
