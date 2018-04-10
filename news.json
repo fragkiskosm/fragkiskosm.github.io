@@ -1,5 +1,4 @@
-[{
-        "id": "news_16",
+[{     "id": "news_16",
         "date": "April 10, 2018",
         "title": "Paper  with Konstantinos and Michalis was accepted to TextGraphs@NAACL-HLP 2018, New Orleans, Lousiana!",
         "description": "",
@@ -17,28 +16,28 @@
         "date": "October 20, 2017",
         "title": "An <b>internship position</b> in the area of <b>graph mining and learning</b> is available. Drop me an email if you are interested!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_13",
         "date": "October 15, 2017",
         "title": "I am excited to be joining <a href='http://www.centralesupelec.fr/en'>CentraleSup&eacutelec</a>, <a href='https://www.universite-paris-saclay.fr/en'>University of Paris-Saclay</a> as an Assistant Professor!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_12",
         "date": "October 15, 2017",
         "title": "Three short papers were accepted to the <a href='http://complexnetworks.org/#home'> Complex Networks 2017 </a> conference, that will be held in Lyon, France, Nov 29 - Dec 1, 2017!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_11",
         "date": "July 24, 2017",
         "title": "I will be on the program committee of <a href='https://www2018.thewebconf.org/'>WWW 2018</a> and <a href='https://aaai.org/Conferences/AAAI/aaai18.php'>AAAI 2018</a>!",
         "description": "",
-        "visible": 0
+        "visible": 1
     },
     {
         "id": "news_10",
