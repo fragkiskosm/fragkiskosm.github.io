@@ -1,4 +1,12 @@
-[{     "id": "news_16",
+[{     "id": "news_17",
+        "date": "April 18, 2018",
+        "title": "<b>Internship Position and Follow-up PhD Position (Spring/Summer 2018)</b> on <i>Bioinformatics Graph Processing for Multi-omics Networks</i>. For more information check <a href='http://www.laurent-duval.eu/lcd-2018-intern-phd-epigenetics-omics-graph-processing.html'>here</a>.",
+        "description": "",
+        "visible": 1
+    },
+
+
+{     "id": "news_16",
         "date": "April 10, 2018",
         "title": "Paper  with Konstantinos and Michalis was accepted to TextGraphs@NAACL-HLP 2018, New Orleans, Lousiana!",
         "description": "",
