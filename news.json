@@ -1,4 +1,11 @@
-[{     "id": "news_17",
+[{     "id": "news_18",
+        "date": "May 30, 2018",
+        "title": "<b>Invited talk at the <a href='http://dino.mi.parisdescartes.fr/'>diNO Seminar on Data Analytics</a> at <a href='https://www.univ-paris5.fr/eng'>Paris Descartes University</a>!",
+        "description": "",
+        "visible": 1
+    },
+
+{     "id": "news_17",
         "date": "April 18, 2018",
         "title": "<b>Internship position and follow-up PhD position (Spring/Summer/Fall 2018)</b> on <i>Bioinformatics Graph Processing for Multi-omics Networks</i>. For more information check <a href='http://www.laurent-duval.eu/lcd-2018-intern-phd-epigenetics-omics-graph-processing.html'>here</a>!",
         "description": "",
