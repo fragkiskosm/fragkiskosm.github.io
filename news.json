@@ -1,33 +1,45 @@
 [{     "id": "news_20",
+        "date": "September 6, 2018",
+        "title": "I was recognized as one of the 30% highest-scoring reviewers for <b>NIPS 2018</b>!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_20",
+        "date": "September 6, 2018",
+        "title": "Tutorial with Michalis and Giannis got accepted to <a href='http://www.cikm2018.units.it/'>CIKM 2018</a>!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_20",
         "date": "July 23, 2018",
-        "title": "<b>Paper  with Jordi, Julian and Michalis was accepted to Knowledge and Information Systems (KAIS) Journal!<b>",
+        "title": "Paper  with Jordi, Julian and Michalis was accepted to Knowledge and Information Systems (KAIS) Journal!",
         "description": "",
         "visible": 1
     },
 
 {     "id": "news_19",
         "date": "July 12, 2018",
-        "title": "<b>I am on the program committee of <a href='https://nips.cc/'>NIPS 2018</a> and <a href='https://www2019.thewebconf.org/'>The Web Conference 2019</a>!",
+        "title": "I am on the program committee of <a href='https://nips.cc/'>NIPS 2018</a> and <a href='https://www2019.thewebconf.org/'>The Web Conference 2019</a>!",
         "description": "",
         "visible": 1
     },
 {     "id": "news_19",
         "date": "June 7, 2018",
-        "title": "<b>We received the Best Paper Award at TextGraphs@NAACL-HLP 2018!",
+        "title": "We received the Best Paper Award at TextGraphs@NAACL-HLP 2018!",
         "description": "",
         "visible": 1
     },
 
 {     "id": "news_18",
         "date": "May 30, 2018",
-        "title": "<b>Invited talk at the <a href='http://dino.mi.parisdescartes.fr/'>diNO Seminar on Data Analytics</a> at <a href='https://www.univ-paris5.fr/eng'>Paris Descartes University</a>, hosted by <a href='http://www.mi.parisdescartes.fr/~themisp/'> Prof. Themis Palpanas</a>!",
+        "title": "Invited talk at the <a href='http://dino.mi.parisdescartes.fr/'>diNO Seminar on Data Analytics</a> at <a href='https://www.univ-paris5.fr/eng'>Paris Descartes University</a>, hosted by <a href='http://www.mi.parisdescartes.fr/~themisp/'> Prof. Themis Palpanas</a>!",
         "description": "",
         "visible": 1
     },
 
 {     "id": "news_17",
         "date": "April 18, 2018",
-        "title": "<b>Internship position and follow-up PhD position (Spring/Summer/Fall 2018)</b> on <i>Bioinformatics Graph Processing for Multi-omics Networks</i>. For more information check <a href='http://www.laurent-duval.eu/lcd-2018-intern-phd-epigenetics-omics-graph-processing.html'>here</a>!",
+        "title": "Internship position and follow-up PhD position (Spring/Summer/Fall 2018)</b> on <i>Bioinformatics Graph Processing for Multi-omics Networks</i>. For more information check <a href='http://www.laurent-duval.eu/lcd-2018-intern-phd-epigenetics-omics-graph-processing.html'>here</a>!",
         "description": "",
         "visible": 1
     },
