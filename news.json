@@ -1,4 +1,16 @@
-[{     "id": "news_20",
+[{     "id": "news_22",
+        "date": "November 2, 2018",
+        "title": "Paper with Abdulkadir got accepted to NIPS workshop on <a href='https://r2learning.github.io/''>Relational Representation Learning</a>!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_21",
+        "date": "November 1, 2018",
+        "title": "I am on the program committee of <a href='https://icml.cc/Conferences/2019'>ICML 2019</a> and <a href='https://www2019.thewebconf.org/'>The Web Conference 2019</a>!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_20",
         "date": "September 6, 2018",
         "title": "I was recognized as one of the 30% highest-scoring reviewers for <b>NIPS 2018</b>!",
         "description": "",
@@ -21,7 +33,7 @@
         "date": "July 12, 2018",
         "title": "I am on the program committee of <a href='https://nips.cc/'>NIPS 2018</a> and <a href='https://www2019.thewebconf.org/'>The Web Conference 2019</a>!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_19",
         "date": "June 7, 2018",
