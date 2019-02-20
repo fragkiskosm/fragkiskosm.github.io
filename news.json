@@ -1,4 +1,10 @@
-[{     "id": "news_22",
+[{     "id": "news_23",
+        "date": "February 20, 2019",
+            "title": "I am co-organizing a special session on <a href='https://e-nns.org/icann2019/conference-programme/special-sessions/#mlgraphs'>Machine Learning with Graphs: Algorithms and Applications</a> at the <a href= 'https://e-nns.org/icann2019/'>28th International Conference on Artificial Neural Networks</a>, in Munich, Germany, September 17-19, 2019 (with <a href='http://web.eecs.umich.edu/~dkoutra/'>Danai Koutra</a> and <a href='http://www.cs.ucr.edu/~epapalex/'>Evangelos Papalexakis</a>)!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_22",
         "date": "November 2, 2018",
         "title": "Paper with Abdulkadir got accepted to NIPS workshop on <a href='https://r2learning.github.io/''>Relational Representation Learning</a>!",
         "description": "",
