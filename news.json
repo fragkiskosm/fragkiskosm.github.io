@@ -1,4 +1,10 @@
-[{     "id": "news_24",
+[{     "id": "news_25",
+        "date": "March 26, 2019",
+        "title": "Consider applying to the <a href='https://www.summerschoolcentralesupelec.fr/about/artificial-intelligence/'>2019 Summer School in  Artificial Intelligence</a> at CentraleSupelec! Two weeks in Paris, an amazing program in Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision, Network Science and many cultural activities!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_24",
         "date": "March 15, 2019",
         "title": "I am looking for interns interested to work on graphs and machine learning! Please, see <a href='positions/Internship_Positions_CentraleSupelec_2019.pdf'>here</a> for more details and drop me an email if you are interested!",
         "description": "",
