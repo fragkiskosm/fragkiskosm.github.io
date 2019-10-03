@@ -106,35 +106,34 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>1</td><td>October 4</td><td>Introduction</td><td><a href="#lecture1">Lecture 1</a></td><td></td>
+								<td>1</td><td>October 9</td><td>Introduction to ML; Model selection and evaluation</td><td><a href="#lecture1">Lecture 1</a></td><td></td>
 							</tr>
+					
 							<tr>
-								<td>2</td><td>October 11</td><td>Dimensionality reduction</td><td><a href="#lecture2">Lecture 2</a></td><td></td> </br>
-							</tr>
-							<tr>	
-								<td>3</td><td>October 18</td><td>Model selection and evaluation</td><td><a href="#lecture3">Lecture 3</a></td><td><b>Assignment 1 out</b> </br><b>Project proposal due on October 21</b></td>
-							</tr>
-							<tr>	
-								<td>4</td><td>November 5</td><td>Linear and logistic regression</td><td><a href="#lecture4">Lecture 4</a></td><td><b>Assignment 2 out</b></td>
+								<td>2</td><td>October 16</td><td>Dimensionality reduction</td><td><a href="#lecture2"></a></td><td><b>Assignment 1 out</b> </br><b>Project proposal due on October 21</b></td>
 							</tr>
 
 							<tr>	
-								<td>5</td><td>November 12</td><td>Probabilistic classifiers and linear discriminant analysis</td><td><a href="#lecture5">Lecture 5</a></td><td><b>Assignment 1 due on November 11</b></td>
+								<td>4</td><td>October 23</td><td>Linear and logistic regression</td><td><a href="#lecture4"></a></td><td><b>Assignment 2 out</b></td>
+							</tr>
+
+							<tr>	
+								<td>5</td><td>October 30</td><td>Probabilistic classifiers and linear discriminant analysis</td><td><a href="#lecture5"> </a></td><td><b>Assignment 1 due on November 11</b></td>
 							</tr>
 							<tr>	
-								<td>6</td><td>November 14</td><td>Non-parametric learning and nearest neighbor methods</td><td><a href="#lecture6">Lecture 6</a></td><td></td>
+								<td>6</td><td>November 6</td><td>Non-parametric learning and nearest neighbor methods</td><td><a href="#lecture6"></a></td><td></td>
 							</tr>
 							<tr>	
-								<td>7</td><td>November 19</td><td>Tree-based methods and ensemble learning</td><td><a href="#lecture7">Lecture 7</a></td><td><b></b></td>
+								<td>7</td><td>November 14</td><td>Tree-based methods and ensemble learning</td><td><a href="#lecture7"></a></td><td><b></b></td>
 							</tr>
 							<tr>	
-								<td>8</td><td>November 21</td><td>Support Vector Machines</td><td><a href="#lecture8">Lecture 8</a></td><td></td>
+								<td>8</td><td>November 21</td><td>Support Vector Machines</td><td><a href="#lecture8"></a></td><td></td>
 							</tr>
 							<tr>	
-								<td>9</td><td>November 26</td><td>Unsupervised learning: clustering</td><td><a href="#lecture9">Lecture 9</a></td><td><b>Assignment 2 due on December 2</b></td>
+								<td>9</td><td>November 28</td><td>Unsupervised learning: clustering</td><td><a href="#lecture9"></a></td><td><b>Assignment 2 due on December 2</b></td>
 							</tr>
 						<tr>	
-								<td>10</td><td>December 17</td><td>Project presentations</td><td></td><td><b>Project final report due</b></td>
+								<td>10</td><td>December 5</td><td>Project presentations</td><td></td><td><b>Project final report due</b></td>
 							</tr>	
 						</tbody>
 					</table>
@@ -147,25 +146,28 @@
 
 				</br>
 				<a name="lecture1"></a>
-				<h2><span class="fa  fa-files-o"></span> [October 4] Lecture 1: Introduction</h2>
-				Introduction to machine learning, administrivia, course structure and overview of the topics that will be covered in the course. Bacic concepts in optimization. </br></br>
+				<h2><span class="fa  fa-files-o"></span> [October 9] Lecture 1: Introduction; Model selection and evaluation</h2>
+				Introduction to machine learning, administrivia, course structure and overview of the topics that will be covered in the course. Overfitting and generalization. Bias-variance tradeoff. Training, validation and test sets. Cross-validation. Evalution of supervised learning algorithms.  </br></br>
 
 				Reading: 
 				<ul>
 					<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Chapters 1 and 2)
 					<li> <a href="https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning</a> (Chapter 1)
+					<li> <a href=" https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning: Data Mining, Inference, and Prediction </a> (Sections 7.1, 7.2, 7.3, 7.10)	
 				</ul>
 				</br>
 
 				Additional:
 				<ul>
+					<li> M. Kuhn and K. Johnson. <a href="https://link.springer.com/chapter/10.1007/978-1-4614-6849-3_19/fulltext.html">An Introduction to Feature Selection</a>. Applied Predictive Modeling, pages 487-519, 2013. <i>[For the part of the lecture on feature selection].</i>
+					<li> Model evaluation, model selection, and algorithm selection in machine learning: <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html">Part I</a> (Basics), <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part2.html">Part II</a> (Bootstrapping and uncertainties), and <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html">Part III</a> (Cross-validation and hyperparameter tuning). Interesting blog post by <a href="https://sebastianraschka.com/">Sebastian Raschka</a>, 2016.
 					<li> <a href="http://sbubeck.com/Bubeck15.pdf">Convex Optimization: Algorithms and Complexity</a> (Sections 1.1, 1.2, 1.3)
 					<li> <a href="http://theory.epfl.ch/vishnoi/Nisheeth-VishnoiFall2014-ConvexOptimization.pdf">Convex optimization and gradient descent</a>, lecture notes by Nisheeth Vishnoi, EPFL (Sections 1.1, 1.2, 1.3)
 				</ul></br>
 
 
 				<a name="lecture2"></a>
-				<h2><span class="fa  fa-files-o"></span> [October 11] Lecture 2: Dimensionality reduction</h2>
+				<h2><span class="fa  fa-files-o"></span> [October 16] Lecture XX: Dimensionality reduction</h2>
 				Dimemensionality reduction techniques. Singular Value Decomposition (SVD). Principal Component Analysis (PCA). Multidimensional Scaling (MDS) and nonlinear dimensionality reduction.
 				</br></br>
 
@@ -185,26 +187,9 @@
 				</ul></br>
 
 
-				<a name="lecture3"></a>
-				<h2><span class="fa  fa-files-o"></span> [October 18] Lecture 3: Model selection and evaluation</h2>
-				Overfitting and generalization. Bias-variance tradeoff. Training, validation and test sets. Cross-validation. Evalution of supervised learning algorithms.
-				</br></br>
-
-				Reading: 
-				<ul>
-				<li> <a href=" https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning: Data Mining, Inference, and Prediction </a> (Sections 7.1, 7.2, 7.3, 7.10)
-				</ul></br>
-
-				Additional:
-				<ul>
-				<li> M. Kuhn and K. Johnson. <a href="https://link.springer.com/chapter/10.1007/978-1-4614-6849-3_19/fulltext.html">An Introduction to Feature Selection</a>. Applied Predictive Modeling, pages 487-519, 2013. <i>[For the first part of the lecture on feature selection].</i>
-				<li> Model evaluation, model selection, and algorithm selection in machine learning: <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html">Part I</a> (Basics), <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part2.html">Part II</a> (Bootstrapping and uncertainties), and <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html">Part III</a> (Cross-validation and hyperparameter tuning). Interesting blog post by <a href="https://sebastianraschka.com/">Sebastian Raschka</a>, 2016.
-				</ul></br>
-
-
 
 				<a name="lecture4"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 5] Lecture 4: Linear and logistic regression </h2>
+				<h2><span class="fa  fa-files-o"></span> [October 23] Lecture XX: Linear and logistic regression </h2>
 				Supervised learning models. Linear regression. Linear classification models. Logistic regression. Maximum likelihood estimation. </br></br>
 
 				Reading: 
@@ -220,7 +205,7 @@
 
 				
 				<a name="lecture5"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 12] Lecture 5: Probabilistic classifiers and linear discriminant analysis </h2>
+				<h2><span class="fa  fa-files-o"></span> [October 30] Lecture XX: Probabilistic classifiers and linear discriminant analysis </h2>
 				Bayes rule. Naive Bayes classifier. Maximum a posterioti estimation. Linear discriminant analysis (LDA). </br></br>
 
 			Reading:
@@ -239,7 +224,7 @@
 
 
 				<a name="lecture6"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 14] Lecture 6: Non-parametric learning and nearest neighbor methods </h2>
+				<h2><span class="fa  fa-files-o"></span> [November 6] Lecture XX: Non-parametric learning and nearest neighbor methods </h2>
 				Introduction to non-parametric learning methods. Distance and similarity metrics. Nearest neighbor algorithms. </br></br>
 
 				Reading: 
@@ -257,7 +242,7 @@
 
 
 				<a name="lecture7"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 19] Lecture 7: Tree-based methods and ensemble learning</h2>
+				<h2><span class="fa  fa-files-o"></span> [November 14] Lecture XX: Tree-based methods and ensemble learning</h2>
 				Decision trees. Ensemble learning. Bagging and Boosting. The AdaBoost algorithm.</br></br>
 
 				Reading:
@@ -273,7 +258,7 @@
 
 
 				<a name="lecture8"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 21] Lecture 8: Support Vector Machines</h2>
+				<h2><span class="fa  fa-files-o"></span> [November 21] Lecture XX: Support Vector Machines</h2>
 				Maximum margin classifier. Linear SVMs. Primal and dual optimization problems. Non-linearly separable data and the kernel trick. Regularization and the non-separable case. </br></br>
 				
 
@@ -289,7 +274,7 @@
 
 
 				<a name="lecture9"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 26] Lecture 9: Unsupervised learning: clustering </h2>
+				<h2><span class="fa  fa-files-o"></span> [November 28] Lecture XX: Unsupervised learning: clustering </h2>
 				Introduction to unsupervised learning methods. Data clustering. Hierarchical clustering. k-means clustering. Spectral clustering. </br></br>
 
 				Reading: 
@@ -304,7 +289,7 @@
 			
 
 				<a name="lecture10"></a>
-				<h2><span class="fa  fa-files-o"></span> Lecture 10: Project presentations </h2>
+				<h2><span class="fa  fa-files-o"></span> Lecture XX: Project presentations </h2>
 				Presentation of the projects of each team. </br></br>				
 
 				<br><br>
