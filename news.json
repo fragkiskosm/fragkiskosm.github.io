@@ -1,15 +1,23 @@
-[{     "id": "news_28",
+[{     "id": "news_29",
         "date": "November 12, 2019",
         "title": "Paper with Abdulkadir got accepted to AAAI 2020!",
         "description": "",
         "visible": 1
     },
-{     "id": "news_27",
+{     "id": "news_28",
         "date": "November 5, 2019",
         "title": "Our survey article on Core Decomposition of Networks got accepted to the VLDB Journal!",
         "description": "",
         "visible": 1
     },
+{
+        "id": "news_27",
+        "date": "Oct 25, 2019",
+        "title": "I am co-organizing the <a href='https://sites.google.com/view/textgraphs2020'>TextGraphs 2020 </a> workshop, co-located with <a href='https://coling2020.org/'>COLING 2020</a> in Barcelona, Sept. 2020!",
+        "description": "",
+        "visible": 0
+    },
+
 {     "id": "news_26",
         "date": "August 15, 2019",
         "title": "Paper with Abdulkadir got accepted to IEEE GlobalSIP 2019!",
@@ -81,7 +89,7 @@
         "date": "June 7, 2018",
         "title": "We received the Best Paper Award at TextGraphs@NAACL-HLP 2018!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 
 {     "id": "news_18",
@@ -110,7 +118,7 @@
         "date": "December 21, 2017",
         "title": "I am co-organizing the <a href='https://aminer.org/bignet_www2018'>3rd International Workshop on Learning Representations for Big Networks (BigNet 2018)</a>, co-located with the <a href= 'https://www2018.thewebconf.org/'>Web Conference 2018</a>, in Lyon, France, April 23, 2018 (with <a href='http://keg.cs.tsinghua.edu.cn/jietang/'>Jie Tang</a>, <a href='http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/'>Michalis Vazirgiannis</a> and <a href='https://ericdongyx.github.io/'>Yuxiao Dong</a>)!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },    
     {
         "id": "news_14",
@@ -138,7 +146,7 @@
         "date": "July 24, 2017",
         "title": "I will be on the program committee of <a href='https://www2018.thewebconf.org/'>WWW 2018</a> and <a href='https://aaai.org/Conferences/AAAI/aaai18.php'>AAAI 2018</a>!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {
         "id": "news_10",
