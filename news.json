@@ -1,4 +1,16 @@
-[{     "id": "news_29",
+[{     "id": "news_31",
+        "date": "December 19, 2019",
+        "title": "Paper with Chloe, Antoine and Paul-Henry  got accepted to the DKE Journal!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_30",
+        "date": "December 15, 2019",
+        "title": "Paper with George and Michalis got accepted to ICWSM 2020!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_29",
         "date": "November 12, 2019",
         "title": "Paper with Abdulkadir got accepted to AAAI 2020!",
         "description": "",
@@ -28,7 +40,7 @@
         "date": "July 15, 2019",
         "title": "Two papers got accepted to ASONAM 2019!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_24",
         "date": "March 15, 2019",
