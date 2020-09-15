@@ -1,4 +1,10 @@
-[{     "id": "news_31",
+[{     "id": "news_32",
+        "date": "June 12, 2020",
+        "title": "We received a best paper honorable mention award at ICWSM 2020!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_31",
         "date": "December 19, 2019",
         "title": "Paper with Chloe, Antoine and Paul-Henry  got accepted to the DKE Journal!",
         "description": "",
@@ -34,7 +40,7 @@
         "date": "August 15, 2019",
         "title": "Paper with Abdulkadir got accepted to IEEE GlobalSIP 2019!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_25",
         "date": "July 15, 2019",
