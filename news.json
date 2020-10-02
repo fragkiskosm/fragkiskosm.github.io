@@ -1,4 +1,10 @@
 [{     "id": "news_32",
+        "date": "October 2, 2020",
+        "title": "I have received the Young Researchers grant (ANR-JCJC) from the French National Research Agency for my project \"GraphIA: Scalable and Robust Representation Learning on Graphs\"!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_32",
         "date": "June 12, 2020",
         "title": "We received a best paper honorable mention award at ICWSM 2020!",
         "description": "",
