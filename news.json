@@ -1,4 +1,16 @@
-[{     "id": "news_32",
+[{     "id": "news_35",
+        "date": "February 23, 2021",
+        "title": "New paper with Abdulkadir got accepted to the Pattern Recognition Letters journal!",
+        "description": "",
+        "visible": 1
+    },
+    {   "id": "news_34",
+        "date": "February 22, 2021",
+        "title": "New tutorial with George on \"Influence Learning and Maximization\" at ICWE (online)!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_33",
         "date": "October 2, 2020",
         "title": "I have received the Young Researchers grant (ANR-JCJC) from the French National Research Agency for my project \"GraphIA: Scalable and Robust Representation Learning on Graphs\"!",
         "description": "",
@@ -20,26 +32,26 @@
         "date": "December 15, 2019",
         "title": "Paper with George and Michalis got accepted to ICWSM 2020!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_29",
         "date": "November 12, 2019",
         "title": "Paper with Abdulkadir got accepted to AAAI 2020!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_28",
         "date": "November 5, 2019",
         "title": "Our survey article on Core Decomposition of Networks got accepted to the VLDB Journal!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {
         "id": "news_27",
         "date": "Oct 25, 2019",
         "title": "We are organizing the <a href='https://sites.google.com/view/textgraphs2020'>TextGraphs 2020 </a> workshop, co-located with <a href='https://coling2020.org/'>COLING</a> in Barcelona, Sept. 2020!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 
 {     "id": "news_26",
