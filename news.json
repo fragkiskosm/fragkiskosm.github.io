@@ -1,4 +1,10 @@
-[{     "id": "news_35",
+[{     "id": "news_36",
+        "date": "May 5, 2021",
+        "title": "Paper with Surabhi, Abdulkadir, Aurélie, Frederique and Laurent, got accepted to EUSIPCO 2021!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_35",
         "date": "February 23, 2021",
         "title": "New paper with Abdulkadir got accepted to the Pattern Recognition Letters journal!",
         "description": "",
@@ -26,7 +32,7 @@
         "date": "December 19, 2019",
         "title": "Paper with Chloe, Antoine and Paul-Henry  got accepted to the DKE Journal!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_30",
         "date": "December 15, 2019",
