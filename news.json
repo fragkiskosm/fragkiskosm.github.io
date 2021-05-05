@@ -1,6 +1,12 @@
-[{     "id": "news_36",
+[{     "id": "news_37",
         "date": "May 5, 2021",
         "title": "Paper with Surabhi, Abdulkadir, Aurélie, Frederique and Laurent got accepted to EUSIPCO 2021!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_36",
+        "date": "April 21, 2021",
+        "title": "Abdulkadir defended his Ph.D. thesis! He will be joining the Technical University of Denmark (DTU Compute) as a postdoc researcher!",
         "description": "",
         "visible": 1
     },
