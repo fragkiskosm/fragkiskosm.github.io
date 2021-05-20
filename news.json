@@ -1,4 +1,10 @@
-[{     "id": "news_37",
+[{     "id": "news_38",
+        "date": "May 20, 2021",
+        "title": "We have an open Ph.D. position on <a href='http://fragkiskos.me/positions/GratifAI_PhD_Call_DigiCosme_2021.pdf'>Robust Graph Representation Learning and Applications in Misinformation Detection</a>, jointly supervised by Thomas Bonald (T&eacutel&eacutecom Paris) and me!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_37",
         "date": "May 5, 2021",
         "title": "Paper with Surabhi, Abdulkadir, Aurélie, Frederique and Laurent got accepted to EUSIPCO 2021!",
         "description": "",
