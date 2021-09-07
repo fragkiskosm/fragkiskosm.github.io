@@ -1,4 +1,10 @@
-[{     "id": "news_39",
+[{     "id": "news_40",
+        "date": "September 7, 2021",
+        "title": "We have open internship positions in the field of machine learning on graphs  with applications in (i) social media analysis, (ii) biomedical data. Please contact me by email if you are interested.",
+        "description": "",
+        "visible": 1
+    },
+	{     "id": "news_39",
         "date": "June 22, 2021",
         "title": "Paper with Alexandre accepted to ECML PKDD 2021!",
         "description": "",
