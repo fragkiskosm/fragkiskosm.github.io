@@ -1,0 +1,268 @@
+/*.navbar{ background-color:#000; color:#ffffff;}
+.navbar a{color:#fff; }
+.navbar a:hover, .navbar a:focus{background-color:#ddd !important; color:#fffff; }
+
+.navbar .navbar-toggle>.icon-bar{background-color:#ffffff; }
+.navbar .navbar-toggle:hover>.icon-bar{background-color:#ffffff; }*/
+.navbar-brand {
+  color: white !important
+}
+.navblank {
+  height:50px;  
+}
+.title_box{
+  background-color:#10712C;
+}
+.title_box h1{
+  color: #fff; text-shadow: 1pt 1pt 1pt #000; font-size: 32px;
+}
+.title_box .description{
+  text-align:justify; color:white; text-shadow: 1px 1px 0px #000; font-size:13pt; 
+}
+.table>tbody>tr:nth-child(even){
+  background-color:#E5F5E9; 
+}
+ table.table {
+  border-top: 1px solid #eee; 
+}
+.table_scrollable{
+  overflow:auto; 
+}
+h2{
+  font-size: 25pt; color:#10712C; padding-top: 80px; margin-top: -80px; 
+}
+h3 {
+  color:#10712C
+}
+@media screen and (min-width: 768px)
+  .title_box.jumbotron h1, .title_box.jumbotron .h1 {
+  font-size: 50px;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size:  medium;
+  font-weight: normal;
+}
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+blockquote {
+  border-left: 5px solid #10712C !important;
+}
+#emp {
+  font-weight: bold;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
+.padding-top-20 {
+  padding-top: 20px;
+}
+.padding-top-50 {
+  padding-top: 50px;
+}
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+.padding-bottom-em-2 {
+  padding-bottom: 2em;
+}
+.padding-left-5 {
+  padding-left: 5px;
+}
+.padding-left-20 {
+  padding-left: 20px;
+}
+.padding-right-20 {
+  padding-right: 20px;
+}
+.margin-right-5 {
+  margin-right: 5px;
+}
+.margin-left-20 {
+  margin-left: 20px;
+}
+.margin-left-40 {
+  margin-left: 40px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+.margin-top-38 {
+  margin-top: 38px;
+}
+.margin-top-50 {
+  margin-top: 50px;
+}
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+.margin-top-percent-5 {
+  margin-top: 5%;
+}
+.margin-top-percent-10 {
+  margin-top: 10%;
+}
+.margin-bottom-percent-2 {
+  margin-bottom: 2%;
+}
+.margin-bottom-percent-4 {
+  margin-bottom: 4%;
+}
+.margin-bottom-percent-5 {
+  margin-bottom: 5%;
+}
+.margin-bottom-percent-10 {
+  margin-bottom: 10%;
+}
+.padding-bottom-percent-1 {
+  padding-bottom: 1%;
+}
+.padding-left-percent-4 {
+  padding-left: 4%;
+}
+.padding-left-percent-15 {
+  padding-left: 15%;
+}
+.padding-right-percent-5 {
+  padding-right: 5%;
+}
+.padding-left-percent-5 {
+  padding-left: 5%;
+}
+.margin-right-percent-10 {
+  margin-right: 10%;
+}
+.margin-left-percent-10 {
+  margin-left: 10%;
+}
+.font-size-pt-14 {
+  font-size: 14pt;
+}
+.font-size-pt-16 {
+  font-size: 16pt;
+}
+.font-size-pt-18 {
+  font-size: 18pt;
+}
+.font-size-px-16 {
+  font-size: 16px;
+}
+.font-size-px-18 {
+  font-size: 18px;
+}
+.text-justify {
+  text-align: justify;
+}
+/* Cursor attributes */
+.cursor-auto {
+  cursor: auto;
+}
+.cursor-default {
+  cursor: default;
+}
+.cursor-none {
+  cursor: none;
+}
+.cursor-context-menu {
+  cursor: context-menu;
+}
+.cursor-help {
+  cursor: help;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-progress {
+  cursor: progress;
+}
+.cursor-wait {
+  cursor: wait;
+}
+.cursor-cell {
+  cursor: cell;
+}
+.cursor-crosshair {
+  cursor: crosshair;
+}
+.cursor-text {
+  cursor: text;
+}
+.cursor-vertical-text {
+  cursor: vertical-text;
+}
+.cursor-alias {
+  cursor: alias;
+}
+.cursor-copy {
+  cursor: copy;
+}
+.cursor-move {
+  cursor: move;
+}
+.cursor-no-drop {
+  cursor: no-drop;
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+.cursor-col-resize {
+  cursor: col-resize;
+}
+.cursor-row-resize {
+  cursor: row-resize;
+}
+.cursor-n-resize {
+  cursor: n-resize;
+}
+.cursor-e-resize {
+  cursor: e-resize;
+}
+.cursor-s-resize {
+  cursor: s-resize;
+}
+.cursor-w-resize {
+  cursor: w-resize;
+}
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+.cursor-se-resize {
+  cursor: se-resize;
+}
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+.cursor-nwse-resize {
+  cursor: nwse-resize;
+}
+
+.list-group-item {
+    padding: 4px 10px
+}
