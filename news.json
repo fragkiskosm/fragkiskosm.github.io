@@ -1,13 +1,13 @@
 [
  {     "id": "news_44",
         "date": "March 31, 2022",
-        "title": "I will be visiting the <a href='http://www.diag.uniroma1.it/en'>Sapienza University of Rome</a> in April-May 2022, under the <a href=='https://www.uniroma1.it/en/pagina/visiting-professors'>Sapienza Visiting Professors</a> grant!",
+        "title": "I will be visiting the <a href='http://www.diag.uniroma1.it/en'>Sapienza University of Rome</a> in April-May 2022, under Sapienza Visiting Professors grant!",
         "description": "",
         "visible": 1
     },   
 {     "id": "news_43",
         "date": "February 20, 2022",
-        "title": "Alexandre received a <a href='https://www.mitacs.ca/en/programs/globalink'>Mitacsh Globalink fellowship</a> to pursue research on graph representation learning for climate change at Mila, Montreal!",
+        "title": "Alexandre received a <a href='https://www.mitacs.ca/en/programs/globalink'>Mitacs Globalink fellowship</a> to pursue research on graph representation learning for climate change at Mila, Montreal!",
         "description": "",
         "visible": 1
     },
