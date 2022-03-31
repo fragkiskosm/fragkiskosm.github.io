@@ -1,4 +1,23 @@
-[{     "id": "news_41",
+[
+ {     "id": "news_42",
+        "date": "March 31, 2022",
+        "title": "I will be visiting the <a href='http://www.diag.uniroma1.it/en'>Sapienza University of Rome</a> in April-May 2022, under the <a href=='https://www.uniroma1.it/en/pagina/visiting-professors'>Sapienza Visiting Professors</a> grant!",
+        "description": "",
+        "visible": 1
+    },   
+{     "id": "news_42",
+        "date": "February 20, 2022",
+        "title": "Alexandre received a <a href='https://www.mitacs.ca/en/programs/globalink'>Mitacsh Globalink fellowship</a> to pursue research on graph representation learning for climate change at Mila, Montreal!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_42",
+        "date": "February 10, 2022",
+        "title": "George Panagopoulos defended his Ph.D. thesis! He will be joining Amazon Labs in Luxembourg!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_41",
         "date": "January 10, 2022",
         "title": "We have open internship positions in the field of machine learning on graphs  with applications in (i) social media and (ii) biomedical data analysis. Please contact me by email if you are interested!",
         "description": "",
@@ -26,7 +45,7 @@
         "date": "May 5, 2021",
         "title": "Paper with Surabhi, Abdulkadir, Aurélie, Frederique and Laurent got accepted to EUSIPCO 2021!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_36",
         "date": "April 21, 2021",
