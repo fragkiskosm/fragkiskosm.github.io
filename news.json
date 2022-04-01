@@ -23,6 +23,12 @@
         "description": "",
         "visible": 1
     },
+    {     "id": "news_45",
+        "date": "January 3, 2022",
+        "title": "<a href='https://sites.google.com/view/jhonygiraldo'>Jhony Giraldo</a> (La Rochelle University) is joining the group as a visiting PhD student under a DATAI PhD mobility grant!",
+        "description": "",
+        "visible": 1
+    },
     {     "id": "news_40",
         "date": "October 20, 2021",
         "title": "Paper with Surabhi and collaborators from IFP Energies nouvelles got accepted to CIBB 2021!",
