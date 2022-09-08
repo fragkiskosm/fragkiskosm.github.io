@@ -1,4 +1,22 @@
 [
+ {     "id": "news_8",
+        "date": "Sept 8, 2022",
+        "title": "Paper with Alexandre got accepted to <a href='https://www.cikm2022.org/'>CIKM 2022</a>!",
+        "description": "",
+        "visible": 1
+    },   
+{     "id": "news_47",
+        "date": "Sept 5, 2022",
+        "title": "Paper with Bin, Dimitris, Grigorios, and Apostolos got accepted to <a href='https://academic.oup.com/bib'>Briefings in Bioinformatics</a>! This was the outcome of a great collaboration with the Aristotle University of Thessaloniki.",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_47",
+        "date": "Sept 5, 2022",
+        "title": "Paper with Bin, Dimitris, Grigorios, and Apostolos got accepted to <a href='https://academic.oup.com/bib'>Briefings in Bioinformatics</a>! This was the outcome of a great collaboration with the Aristotle University of Thessaloniki.",
+        "description": "",
+        "visible": 1
+    }, 
   {     "id": "news_46",
         "date": "June 27, 2022",
         "title": "I will be an invited speaker at the <a href='http://www2.imm.dtu.dk/courses/02901/'>Advanced Topics in Machine Learning: Graph Representation Learning</a> summer school organized at the Technical University of Denmark on August 22-26!",
@@ -39,7 +57,7 @@
         "date": "January 3, 2022",
         "title": "<a href='https://sites.google.com/view/jhonygiraldo'>Jhony Giraldo</a> (La Rochelle University) is joining the group as a visiting PhD student under a DATAI PhD mobility grant!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_40",
         "date": "October 20, 2021",
