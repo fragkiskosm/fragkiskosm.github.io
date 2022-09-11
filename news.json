@@ -1,5 +1,11 @@
 [
- {     "id": "news_8",
+{     "id": "news_49",
+        "date": "Sept 11, 2022",
+        "title": "Paper with Abdulkadir and Apostolos got accepted to <a href='https://asonam.cpsc.ucalgary.ca/2022/'>ASONAM 2022</a>!",
+        "description": "",
+        "visible": 1
+    },
+ {     "id": "news_48",
         "date": "Sept 8, 2022",
         "title": "Paper with Alexandre got accepted to <a href='https://www.cikm2022.org/'>CIKM 2022</a>!",
         "description": "",
