@@ -1,4 +1,10 @@
-[
+[{     "id": "news_52",
+        "date": "Feb 2, 2023",
+        "title": "Surabhi Jagtap defended her Ph.D. on Multilayer Graph Embeddings for Omics Data Integration in Bioinformatics!",
+        "description": "",
+        "visible": 1
+    },
+
   {     "id": "news_51",
         "date": "Nov 8, 2022",
         "title": "Paper with Surabhi, Abdulkadir, and our colleagues from <a href='https://www.ifpenergiesnouvelles.com/'>IFP Energies nouvelles</a> Aurelie, Frederique, and Laurent got accepted to <a href='https://academic.oup.com/bioinformatics/'>Bioinformatics</a>!",
@@ -39,31 +45,31 @@
         "date": "April 19, 2022",
         "title": "Paper with Abdulkadir and Yanning got accepted to IEEE Transactions on Knowledge and Data Engineering (TKDE)!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },     
  {     "id": "news_44",
         "date": "March 31, 2022",
         "title": "I will be visiting the <a href='http://www.diag.uniroma1.it/en'>Department of Computer, Control and Management Engineering</a> at <a href='http://www.diag.uniroma1.it/en'>Sapienza University of Rome</a> in April-May 2022, under a Sapienza Visiting Professors grant!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },   
 {     "id": "news_43",
         "date": "February 20, 2022",
         "title": "Alexandre received a <a href='https://www.mitacs.ca/en/programs/globalink'>Mitacs Globalink fellowship</a> to pursue research on graph representation learning for climate change at Mila - Quebec AI Institute!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_42",
         "date": "February 10, 2022",
         "title": "George Panagopoulos defended his Ph.D. thesis! He will be joining Amazon Labs in Luxembourg!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_41",
         "date": "January 10, 2022",
         "title": "We have open internship positions in the field of machine learning on graphs  with applications in (i) social media and (ii) biomedical data analysis. Please contact me by email if you are interested!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_45",
         "date": "January 3, 2022",
@@ -75,13 +81,13 @@
         "date": "October 20, 2021",
         "title": "Paper with Surabhi and collaborators from IFP Energies nouvelles got accepted to CIBB 2021!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 	{     "id": "news_39",
         "date": "June 22, 2021",
         "title": "Paper with Alexandre accepted to ECML PKDD 2021!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_38",
         "date": "May 20, 2021",
