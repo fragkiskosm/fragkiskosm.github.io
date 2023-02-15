@@ -1,4 +1,10 @@
-[{     "id": "news_52",
+[{     "id": "news_53",
+        "date": "Feb 15, 2023",
+        "title": "We have an <a href='https://drive.google.com/file/d/1bLLwHGGKIrgjNG5wjlJIJjCxi7Tg7BCg/view?usp=share_link'>internship position</a> on the design of deep GNNs (with Jhony H. Giraldo from Télécom Paris)!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_52",
         "date": "Feb 2, 2023",
         "title": "Surabhi Jagtap defended her Ph.D. on Multilayer Graph Embeddings for Omics Data Integration in Bioinformatics!",
         "description": "",
