@@ -1,4 +1,10 @@
-[{     "id": "news_53",
+[{     "id": "news_54",
+        "date": "Feb 25, 2023",
+        "title": "Two paper got accepted to ICASSP 2023!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_53",
         "date": "Feb 15, 2023",
         "title": "We have an <a href='https://drive.google.com/file/d/1bLLwHGGKIrgjNG5wjlJIJjCxi7Tg7BCg/view?usp=share_link'>internship position</a> on the design of deep GNNs (jointly with Jhony H. Giraldo from Télécom Paris)!",
         "description": "",
