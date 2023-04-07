@@ -1,4 +1,10 @@
-[{     "id": "news_54",
+[{     "id": "news_55",
+        "date": "April 7, 2023",
+        "title": "We are organizing a special session on <a href="https://gradsci.github.io/"Graph Data Science and Applications (GraDSci)/a> at the  <a href="https://conferences.sigappfr.org/dsaa2023/"10th IEEE International Conference on Data Science and Advance Analytics (DSAA) /a> with Jhony Giraldo!",
+        "description": "",
+        "visible": 1
+    },
+	{     "id": "news_54",
         "date": "Feb 25, 2023",
         "title": "Two paper got accepted to ICASSP 2023!",
         "description": "",
