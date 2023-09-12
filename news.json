@@ -1,4 +1,10 @@
-[{     "id": "news_58",
+[{     "id": "news_59",
+        "date": "Sept 12, 2023",
+        "title": "Paper with George, Nikos, and Michalis got accepted to ASONAM 2023!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_58",
         "date": "August 30, 2023",
         "title": "Paper with Jhony, Konstantinos, and Thierry got accepted to CIKM 2023!",
         "description": "",
