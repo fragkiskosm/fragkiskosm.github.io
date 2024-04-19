@@ -1,4 +1,10 @@
-[{     "id": "news_62",
+[{     "id": "news_63",
+        "date": "April 12, 2024",
+        "title": "I defended my HDR entitled \"A Machine Learning Tour in Network Science\"!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_62",
         "date": "March 5, 2024",
         "title": "Paper with Jhon, Jhony, and Mohsen got accepted to IEEE Transactions on Neural Networks and Learning Systems!",
         "description": "",
