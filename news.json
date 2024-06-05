@@ -1,4 +1,10 @@
-[{     "id": "news_63",
+[{     "id": "news_64",
+        "date": "May 5, 2024",
+        "title": "Paper with George, Daniele, and Jun got accepted to ECML PKDD 2024!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_63",
         "date": "April 12, 2024",
         "title": "I defended my HDR entitled \"A Machine Learning Tour in Network Science\"!",
         "description": "",
