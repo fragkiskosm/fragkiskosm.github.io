@@ -1,4 +1,23 @@
-[{     "id": "news_64",
+[
+{     "id": "news_67",
+        "date": "July 20, 2024",
+        "title": "Paper with George, Nikos, and Michalis got accepted to Springer's Social Network Analysis and Mining journal!",
+        "description": "",
+        "visible": 1
+    },    
+{     "id": "news_66",
+        "date": "July 16, 2024",
+        "title": "Two short papers got accepted to CIKM 2024! The first one is led by Rajaa in collaboration with collegues from Télécom Paris. The second one is lead by Daniele in collobarion with collegues from Politecnico di Bari and VentAI.",
+        "description": "",
+        "visible": 1
+    },    
+{     "id": "news_65",
+        "date": "June 29, 2024",
+        "title": "Paper with Ali, Théo, Basile, Alexandre, Victor, and David got accepted to ICML'24 Workshop in ML for Life and Material Science (ML4LMS)!",
+        "description": "",
+        "visible": 1
+    },    
+{     "id": "news_64",
         "date": "May 5, 2024",
         "title": "Paper with George, Daniele, and Jun got accepted to ECML PKDD 2024!",
         "description": "",
