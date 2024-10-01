@@ -1,475 +1,1458 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-		<title>Foundations of Machine Learning - Master in DSBA </title>
-		<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="./static/css/bootstrap.min.css" rel="stylesheet">
-		<link href="./static/css/style.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	</head>
-
-	<body data-pinterest-extension-installed="cr1.40">
-		<a name="home"></a>
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		  	<div class="container">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-			      	</button>
-			      	<a class="navbar-brand" href="#home"><strong>FML - Fall 2024</strong></a>
-			    </div>
-
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      	<ul class="nav navbar-nav navbar-right">
-				        <li><a href="#overview"><span class="fa fa-bookmark-o"></span> Overview</a></li>
-						<li><a href="#lectures"><span class="fa fa-calendar-check-o"></span> Schedule and Lectures</a></li>
-						<li><a href="#structure"><span class="fa fa-file-text-o"></span>  Course Structure</a></li>
-						<li><a href="#project"><span class="fa fa-cogs"></span> Project</a></li>
-						<li><a href="#resources"><span class="fa fa-external-link"></span> Resources</a></li>
-			      	</ul>
-			    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-
-
-		<div class="navblank">
-		</div>
-
-		<div class="title_box jumbotron">
-			<div class="container">
-				<h1>Foundations of Machine Learning</h1>			
-				<div class="description"></div>
-			</div>
-		</div>
-
-		<div class="container">
-
-			<div class="content_box">
-				<a name="overview"></a>
-				<h2><span class="fa fa-bookmark-o"></span> Course Overview </h2>
-				<blockquote class="text-justify"><p> 
-				<ul> 
-					<li> <a href="http://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/">Master in Data Sciences and Business Analytics</a>, ESSEC Business School and CentraleSup&#233lec
-					<li> October '24 - December '24
-				</ul>	
-				</br>
-				<b>Lecture room: </b>  Paris Falguière campus, CentraleSup&#233lec </br> </br>
-				<b>Instructor:</b> <a href="http://fragkiskos.me">Fragkiskos Malliaros</a> </br>
-				<b>Email:</b> fragkiskos.me [at] gmail.com </br>
-			<b>Office hours:</b> Right after class (or send me an email and we will find a good time to meet)</br> </br>
-			<b>TA:</b> Hakim Benkirane, Konstantinos Florakis</br> </br>
-
-				<b>Edunao:</b> <a href="https://centralesupelec.edunao.com/course/view.php?id=8964"> https://centralesupelec.edunao.com/course/view.php?id=7540 </a> </br>
-
-				</p>
-				</blockquote>
-				<br>
-				
-				<p align="justify">Machine learning  is the scientific field that provides computers the ability to learn without being explicitly programmed (definition by <a href="https://en.wikipedia.org/wiki/Machine_learning">Wikipedia</a>).  Machine learning lies at the heart of many real-world applications, including recommender systems, web search, computer vision, autonomous cars and automatic language translation.  </p>
-
-				The course will provide an overview of fundamental topics as well as important trends in machine learning, including algorithms for supervised and unsupervised learning, dimensionality reduction methods and their applications. A substantial lab section will involve group projects on a data science competition and will provide the students the ability to apply the course theory to real-world problems. </p>
-				<br>
-				
-				
-
-
-				<br><br><br>
-				<a name="lectures"></a>
-				<h2><span class="fa fa-calendar-check-o"></span> Schedule and Lectures </h2>
-				The topics of the lectures are subject to change (the following schedule outlines the topics that will be covered in the course). The slides for each lecture will be posted in <a href="https://centralesupelec.edunao.com/course/view.php?id=8964">edunao</a> before the start of the class. <b>The due dates of the assignments/project are subject to change.</b></br></br> 
-
-
-					<div class="table_scrollable">
-					<table class="table" width=100%>
-					<col width="5%" />
-					<col width="12%" />
-					<col width="40%" />
-					<col width="10%" />
-					<col width="27%" />
-						<thead>
-							<tr>
-								<th class="text-success"></th>
-								<th class="text-success">Date</th>
-								<th class="text-success">Topic</th>
-								<th class="text-success">Material</th>
-								<th class="text-success">Assignments/Project</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>1</td><td>October 3</td><td>&#9675; Introduction <br> 
-								&#9675; Model selection and evaluation</td><td><a href="#lecture1">Lecture 1</a></td><td></td>
-							</tr>
-					
-							<tr>
-								<td>2</td><td>October 17</td><td>
-									&#9675; Dimensionality reduction <br>
-									&#9675; Practical session
-								</td><td><a href="#lecture2">Lecture 2</a></td><td><b>Assignment 1 out</b></td>
-							</tr>
-
-							<tr>	
-								<td>3</td><td>October 31</td><td> &#9675; Linear and logistic regression <br>
-								&#9675; Practical session
-							</td><td><a href="#lecture3">Lecture 3</a></td><td></td>
-							</tr>
-
-							<tr>	
-								<td>4</td><td>November 7</td><td>&#9675; Probabilistic classifiers and linear discriminant analysis <br> 
-								&#9675; Practical session
-								</td><td><a href="#lecture4">Lecture 4</a></td><td><b>Project proposal due on November 3</b><br><b>Assignment 2 out</b></td>
-							</tr>
-							<tr>	
-								<td>5</td><td>November 20 / November 22</td><td> &#9675; Non-parametric learning and nearest neighbor methods <br>
-								&#9675; Practical session</td><td><a href="#lecture5">Lecture 5</a></td><td><b>Assignment 1 due on November 17</b></td>
-							</tr>
-							<tr>	
-								<td>6</td><td>November 28</td><td>&#9675; Tree-based methods and ensemble learning <br>
-								&#9675; Practical session
-							</td><td><a href="#lecture6">Lecture 6</a></td><td></td>
-							</tr>
-							<tr>	
-								<td>7</td><td>December 5</td><td>&#9675; Support Vector Machines <br>
-								&#9675; Practical session
-							</td><td><a href="#lecture7">Lecture 7</a></td><td><b>Assignment 2 due on December 8 </b></td>
-							</tr>
-							<tr>	
-								<td>8</td><td>December 12</td><td> &#9675; Unsupervised learning: clustering <br>
-								&#9675; Practical session</td><td><a href="#lecture8">Lecture 8</a></td><td> <b>Project final report due on December 20</b></td>
-							</tr>
-						</tbody>
-					</table>
-
-				<!--
-				<span id="emp"></span> <a href="http://fragkiskosm.github.io/papers/Tutorial_Slides_ICDM_2016.pdf"> Tutorial_Slides</a><br> <br> <br> --><br>
-				
-				</br>
-
-
-				</br>
-				<a name="lecture1"></a>
-				<h2><span class="fa  fa-files-o"></span> [October 3] Lecture 1: Introduction; Model selection and evaluation</h2>
-				Introduction to machine learning, administrivia, course structure and overview of the topics that will be covered in the course. Overfitting and generalization. Bias-variance tradeoff. Training, validation and test sets. Cross-validation. Evalution of supervised learning algorithms.  </br></br>
-
-				Reading: 
-				<ul>
-					<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Chapters 1 and 2)
-					<li> <a href="https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning</a> (Chapter 1)
-					<li> <a href=" https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning: Data Mining, Inference, and Prediction </a> (Sections 7.1, 7.2, 7.3, 7.10)	
-				</ul>
-				</br>
-
-				Additional:
-				<ul>
-					<li> M. Kuhn and K. Johnson. <a href="https://link.springer.com/chapter/10.1007/978-1-4614-6849-3_19/fulltext.html">An Introduction to Feature Selection</a>. Applied Predictive Modeling, pages 487-519, 2013. <i>[For the part of the lecture on feature selection].</i>
-					<li> <a href="http://papail.io/teaching/901/lecture02_notes.pdf"> Concentration of the empirical risk</a> (also <a href="http://papail.io/teaching/901/scribe_02.pdf">here</a>), lecture notes by Dimitris Papailiopoulos (UW-Madison).	
-					<li> Model evaluation, model selection, and algorithm selection in machine learning: <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html">Part I</a> (Basics), <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part2.html">Part II</a> (Bootstrapping and uncertainties), and <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html">Part III</a> (Cross-validation and hyperparameter tuning). Interesting blog post by <a href="https://sebastianraschka.com/">Sebastian Raschka</a>, 2016.
-					<li> <a href="http://sbubeck.com/Bubeck15.pdf">Convex Optimization: Algorithms and Complexity</a> (Sections 1.1, 1.2, 1.3)
-					<li> <a href="http://theory.epfl.ch/vishnoi/Nisheeth-VishnoiFall2014-ConvexOptimization.pdf">Convex optimization and gradient descent</a>, lecture notes by Nisheeth Vishnoi, EPFL (Sections 1.1, 1.2, 1.3)
-				</ul></br>
-
-
-				<a name="lecture2"></a>
-				<h2><span class="fa  fa-files-o"></span> [October 17] Lecture 2: Dimensionality reduction</h2>
-				Dimemensionality reduction techniques. Singular Value Decomposition (SVD). Principal Component Analysis (PCA). Multidimensional Scaling (MDS) and nonlinear dimensionality reduction.
-				</br></br>
-
-				Reading: 
-				<ul>
-					<li> <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">Mining of Massive Datasets</a> (Sections 11.1, 11.2, 11.3)
-					<li> Jonathon Shlens. <a href="https://arxiv.org/pdf/1404.1100.pdf">A Tutorial on Principal Component Analysis</a>. arXiv, 2014.
-				</ul></br>
-
-				Additional:
-				<ul>
-					<li> <a href="http://theory.stanford.edu/~tim/s15/l/l9.pdf"> SVD and Low Rank Matrix Approximations</a>, lecture notes by Tim Roughgarden and Gregory Valiant (Stanford University)
-					<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf"> Understanding Machine Learning: From Theory to Algorithms</a> (Section 23.1)
-					<li>J. B. Tenenbaum, V. De Silva, and J. C. Langford. <a href="http://wearables.cc.gatech.edu/paper_of_week/isomap.pdf">A Global Geometric Framework for Nonlinear Dimensionality Reduction</a>. Science, 290:5500, pp. 2319-2323, 2000
-					<li> S. T. Roweis and L. K. Saul. <a href="http://www.robots.ox.ac.uk/~az/lectures/ml/lle.pdf">Nonlinear Dimensionality Reduction by Locally Linear Embedding</a>. Science, 290:5500, pp. 2323-2326, 2000
-					<li> M. Belkin and P. Niyogi. <a href="https://www.cise.ufl.edu/class/cap6617fa15/Readings/LEM_NIPS_01.pdf">Laplacian eigenmaps and spectral techniques for embedding and clustering</a>. In NIPS, 2001	
-				</ul></br>
-
-
-
-				<a name="lecture3"></a>
-				<h2><span class="fa  fa-files-o"></span> [October 31] Lecture 3: Linear and logistic regression </h2>
-				Supervised learning models. Linear regression. Linear classification models. Logistic regression. Maximum likelihood estimation. </br></br>
-
-				Reading: 
-				<ul>
- 				<li> <a href="https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf">Linear and logistic regression</a>, lecture notes by Andrew Ng (Stanford University)
- 				<li> <a href="https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning</a> (Sections 3.1, 3.2 and 3.4)
-				</ul>
-
-				Additional:
-				<ul>
-				<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Sections 9.2 and 9.3)
-				</ul></br>
-
-				
-				<a name="lecture4"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 7] Lecture 4: Probabilistic classifiers and linear discriminant analysis </h2>
-				Bayes rule. Naive Bayes classifier. Maximum a posterioti estimation. Linear discriminant analysis (LDA). </br></br>
-
-			Reading:
-				<ul> 
-				<li> <a href="https://see.stanford.edu/materials/aimlcs229/cs229-notes2.pdf">Generative learning algorithms</a>, lecture notes by Andrew Ng (Stanford University)
-				<li> <a href="https://www.ccis.northeastern.edu/home/vip/teach/MLcourse/5_features_dimensions/lecture_notes/LDA/LDA.pdf">Fisher linear discriminant analysis (LDA)</a>, lecture notes by Cheng Li and Bingyu Wang (Northeastern University)	
-				</ul>
-
-				Additional:
-				<ul>
-				<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Sections 24.1, 24.2 and 24.3)
-				<li> <a href="https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning</a> (Section 4.3)	
-				<li> <a href="https://www.doc.ic.ac.uk/~dfg/ProbabilisticInference/old_IDAPILecture15.pdf">Linear discriminant analysis (LDA)</a>, lecture notes by Duncan Fyfe Gillies (Imperial College)
-				<li> <a href="https://www.ics.uci.edu/~welling/teaching/273ASpring09/Fisher-LDA.pdf">Fisher linear discriminant analysis</a>, notes by Max Welling (University of Amsterdam)	
-				</ul></br>
-
-
-
-				<a name="lecture5"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 20 / November 22] Lecture 5: Non-parametric learning and nearest neighbor methods </h2>
-				Introduction to non-parametric learning methods. Distance and similarity metrics. Nearest neighbor algorithms. </br></br>
-
-				Reading: 
-				<ul>
-				<li> <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf">	A Course in Machine Learning</a>, by Hal Daumé III (Sections 3.1, 3.2 and 3.3)
-				</ul>
-
-				Additional:
-				<ul>
-				<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Chapter 19)	
-				<li> <a href="https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning</a> (Section 13.3)
-				</ul></br>
-
-				
-
-
-				<a name="lecture6"></a>
-				<h2><span class="fa  fa-files-o"></span> [November 28] Lecture 6: Tree-based methods and ensemble learning</h2>
-				Decision trees. Ensemble learning. Bagging and Boosting. The AdaBoost algorithm.</br></br>
-
-				Reading:
-				<ul> 
-				<li> <a href="https://www-users.cs.umn.edu/~kumar001/dmbook/ch4.pdf">Classification: Basic Concepts, Decision Trees, and Model Evaluation</a>, Introduction to Data Mining, by Pang-Ning Tan, Michael Steinbach, and Vipin Kumar, 2006
-				<li> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.679.8866&rep=rep1&type=pdf">Introduction to AdaBoost</a>, lecture notes by Balazs Kegl (University of Paris-Saclay)
-				</ul>
-
-				Additional:
-				<ul>
-				<li><a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Chapters 18 and 10) 
-				</ul></br>
-
-
-				<a name="lecture7"></a>
-				<h2><span class="fa  fa-files-o"></span> [December 5] Lecture 7: Support Vector Machines</h2>
-				Maximum margin classifier. Linear SVMs. Primal and dual optimization problems. Non-linearly separable data and the kernel trick. Regularization and the non-separable case. </br></br>
-				
-
-				Reading: 
-				<ul>
-					<li> <a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Pattern Recognition and Machine Learning</a> (Chapter 7.1)
-					<li> <a href="https://see.stanford.edu/materials/aimlcs229/cs229-notes3.pdf">Support Vector Machines</a>, lecture notes by Andrew Ng (Stanford University)
-				</ul> </br>
-
-				Additional:
-				<ul>
-				<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Chapter 15)
-				</ul></br>
-
-
-				<a name="lecture8"></a>
-				<h2><span class="fa  fa-files-o"></span> [December 12] Lecture 8: Unsupervised learning: clustering </h2>
-				Introduction to unsupervised learning methods. Data clustering. Hierarchical clustering. k-means clustering. Spectral clustering. </br></br>
-
-				Reading: 
-				<ul>
-					<li> <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf">Understanding Machine Learning: From Theory to Algorithms</a> (Chapter 22)
-				</ul></br>
-				
-				Additional:
-				<ul>
-				<li> U. von Luxburg. <a href="http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/attachments/luxburg06_TR_v2_4139%5b1%5d.pdf">Tutorial on spectral clustering</a>. Statistics and Computing 17(4), 2007
-				</ul></br>
-			
-				
-
-				<br><br>
-				<div >
-					<a name="structure"></a>
-					<h2><span class="fa fa-file-text-o"></span> Course Structure and Objectives</h2>
-					
-					<font color="#10712C" size="4"> <b>Structure</b></font> </br>
-					Each section of the course is divided into 1h30' lecture and 1h30' lab. The labs will include hands-on assignments (using Python) and will provide the students the opportunity to deal with ML tasks in practice. </br></br></br>	
-					
-					<font color="#10712C" size="4"> <b>Learning objectives</b></font> </br></br>
-					The course aims to introduce students to the field of machine learning by:
-					<ul>
-					<li>Covering a wide range of topics, methodologies and related applications.
-					<li>Giving the students the opportunity to obtain hands-on experience on dealing with real-world problems.
-					</ul>
-					We expect that by the end of the course, the students will be able to:
-					<ul>
-					<li>Identify problems that can be solved using machine learning methodologies.
-				 	<li> Given a problem, identify and apply the most appropriate algorithm(s).
-				 	<li> Implement some of those algorithms from scratch.
-				 	<li> Evaluate and compare machine learning algorithms for a
-						particular task.
-					<li> Deal with real-world data challenges.
-					</ul>	
-					</br></br></br>	
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Prerequisites</b></font> </br></br> 
-					There is no official prerequisite for this course. However, the students are expected to: 
-					<ul>
-					<li> Have basic knowledge of probability theory and linear algebra.
-					<li> Be familiar with at least one programming language (e.g., Python or any language of their preference).
-					</ul>
-					 </br></br></br>
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Reading material</b></font> </br></br> 
-					There is no single required textbook for the course. We will recommend specific chapters from the following books:
-					<ul>
-					<li> Shai Shalev-Shwartz and Shai Ben-David. <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf"> Understanding Machine Learning: From Theory to Algorithms</a>. Cambridge University Press, 2014.
-					<li> Christopher M. Bishop. <a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Pattern Recognition and Machine Learning</a>. Springer, 2011.
-					<li> Trevor Hastie, Robert Tibshirani, and Jerome Friedman. <a href=" https://web.stanford.edu/~hastie/ElemStatLearn">The Elements of Statistical Learning: Data Mining, Inference, and Prediction. </a> Second Edition, Springer, 2017.
-					<li> Jure Leskovec, Anand Rajaraman, and Jeff Ullman. <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">Mining of Massive Datasets.</a> Cambridge University Press, 2014.	
-
-					</ul> </br></br>
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Evaluation</b></font> </br></br> 
-					The evaluation of the course will be based on the following:
-					<ol> 
-					<li> <b>Two assignments:</b> the assignments will include theoretical questions as well hands-on practical questions and will familiarize the students with basic machine learning tasks.
-					<li><b>Project:</b> The students are expected to form groups of 3-4 people, propose a topic for their project, and submit a final project report (it would also be interesting to organize a poster session at the end of the quarter). Please, read the <a href="#project">project</a> section for more details.
-					</ol> </br>
-
-					The grading will be as follows: </br></br>
-					<table  width=500>
-					<col width="25%" />
-					<col width="20%" />
-
-						<tbody>
-							<tr>
-								<td> <b>Assignment 1</b> (individual):</td> <td> 15%</td>
-							</tr>
-							<tr>
-								<td> <b>Assignment 2</b> (groups of 3-4 students):</td> <td> 35%</td>
-							</tr>
-							<td> <b>Project</b> (groups of 3-4 students):</td> <td> 50%</td>
-					</table>
-				</br></br>
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Academic integrity</b></font> </br></br> 
-					All of your work must be your own. Don't copy another student's assignment, in part or in total, and submit it as your own work. Acknowledge and cite source material in your papers or assignments.
-					</ul> </br></br>
-
-				</div>
-
-
-
-				<br><br>
-				<div >
-					<a name="project"></a>
-					<h2><span class="fa fa-cogs"></span> Project</h2>
-					Details about the project of the course will be posted soon on edunao.
-				</div> </br></br>
-
-
-
-
-				<br><br>
-				<div >
-					<a name="resources"></a>
-					<h2><span class="fa fa-external-link"></span> Resources</h2>
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Datasets</b></font> </br>
-
-					<ul>
-					<li> <a href="https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#cite_note-129">List</a>  of datasets for machine learning reserach (mainly link to the corresponding research articles).
-					<li> <a href="https://www.kaggle.com/datasets"> List</a>	of Kaggle datasets.
-					<li> <a href="http://www.kdnuggets.com/datasets/index.html"> KDnuggets </a> list of datasets.
-					<li> <a href="https://archive.org/details/datasets"> archive.org </a> list of datasets.
-					<li><a href="https://opendata.paris.fr/page/home/"> Paris Data</a>: publicly available datasets from the city of Paris.
-					<li> <a href="https://biendata.com/competition/kdd_2018/">KDD Cup of Fresh air</a>: dataset containing the concentration level or air pollutants (including PM2.5) in Beijing and London.	
-					<li><a href="https://www.crowdflower.com/data-for-everyone/"> CrowdFlower AI </a> list of datasets.
-					<li> <a href="https://aws.amazon.com/datasets/"> Amazon Web Services </a> (AWS) list of datasets.	
-					<li> <a href="http://jmcauley.ucsd.edu/data/amazon/"> Amazon product data </a> by Julian McAuley (UC San Diego).
-					<li> <a href="http://jmcauley.ucsd.edu/data/amazon/qa/"> Amazon question/answer data </a> by Julian McAuley (UC San Diego).
-					<li> <a href="http://snap.stanford.edu/">Stanford Network Analysis Project (SNAP)</a>.
-					<li> <a href="http://socialcomputing.asu.edu/pages/home">Social Computing Data Repository at Arizona State University</a>.
-					<li> <a href="https://github.com/BuzzFeedNews/everything"> BuzzFeedNews </a> datasets.
-					<li> <a href="https://github.com/caesar0301/awesome-public-datasets"> Awesome public datasets</a>.
-					<li> <a href="http://socialnetworks.mpi-sws.org/datasets.html">Datasets </a> from the Social Computing Research group at MPI-SWS.
-					<li> <a href="https://aminer.org/data">Datasets </a> from the AMiner academic social network.
-					<li> <a href="http://www.cs.ucr.edu/~eamonn/time_series_data/"> UCR Time Series Archive </a>	
-					<li> <a href="http://www.icwsm.org/2016/datasets/datasets/">Datasets </a> from papers published in the  International AAAI Conference on Web and Social Media (ICWSM). Also, check the previous ICWSM conferences.
-					<li> <a href="https://sites.google.com/view/icwsm2020datachallenge/home">Missinformation prediction datasets </a> from the ICWSM 2020 competition.	
-					<li> <a href="http://archive.ics.uci.edu/ml/index.php">UCI </a> of Machine Learning Repository.
-					<li> <a href="http://www.emilio.ferrara.name/datasets/">Social media (Instagram and Facebook) </a> datasets by Emilio Ferrara (USC).
-					<li> <a href="http://www.kdd.org/kdd-cup">KDD cup archives</a>, uncluding a competition about Tencent Weibo (KDD is one of the premier data mining conferences).
-					<li> <a href="http://147.8.142.179/datazip/">Sina Weibo dataset </a> by Weiboscope (University of Hong Kong). Another Sina Weibo dataset by Tianchi can be found <a href="https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.Vggj52&raceId=5">here</a>.
-					<li> <a href="https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/">T-Drive trajectory data</a> by Microsof Research (one-week trajectories of 10,357 taxis).
-					<li> <a href="https://sites.google.com/site/yangdingqi/home/foursquare-dataset">Foursquare dataset </a> by Dingqi Yang (University of Fribourg).
-					<li> <a href="http://www.quanturb.com/data.html">Datasets </a> from the Spatial and Urban Networks group at CEA (Paris).	
-					<li> <a href="https://www.yelp.com/dataset_challenge">Yelp dataset challenge</a>
-					<li> <a href="https://www.kaggle.com/c/quora-question-pairs">Quora question pairs competition</a> in Kaggle (currently active).
-					<li> <a href="http://illimine.cs.uiuc.edu/">IlliMine repository</a> from the Data Mining Research Group at UIUC.	
-
-						
-					</ul> </br>
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Software tools</b></font> </br>
-
-					<ul>
-					<li> <a href="http://scikit-learn.org/stable/">scikit-learn</a>: Machine Learning library in Python
-					<li> <a href="http://pandas.pydata.org/">pandas</a>: Python data analysis library
-					<li> <a href="http://seaborn.pydata.org/">seaborn</a>: statistical data visualization based on <a href="http://matplotlib.org/">matplotlib</a>
-					<li> <a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks">Gallery</a> of interesting Jupyter Notebooks	
-					</ul> </br>
-
-
-
-					<p class='bd'>
-					<font color="#10712C" size="4"> <b>Related conferences</b></font> </br>
-					Please find below a list of conferences related to the contents of the course (mostly in the field of machine learning and data mining. We provide the DBLP website of each venue where you can access the proceedings (papers, tutorials, etc). 
-
-					</br> 
-					<ul>
-					<li><a href="http://dblp.uni-trier.de/db/conf/nips/">Neural Information Processing Systems (NIPS)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/icml/">International Conference on Machine Learning (ICML)</a>	
-					<li><a href="http://dblp.uni-trier.de/db/conf/kdd/">Knowledge Discovery and Data Mining (KDD)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/icdm/index.html">IEEE International Conference on Data Mining (ICDM)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/sdm/">SIAM International Conference on Data Mining (SDM)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/www/index.html">International World Wide Web Conference (WWW)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/wsdm/index.html">Web Search and Data Mining (WSDM)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/cikm/">Information and Knowledge Management (CIKM)</a>	
-					<li><a href="http://dblp.uni-trier.de/db/conf/pkdd/index.html">Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)</a>
-					<li><a href="http://dblp.uni-trier.de/db/conf/icwsm/index.html">International Conference on Web and Social Media (ICWSM)</a>
-					</ul>
-					Check out the website of each conference (e.g., <a href="https://www.kdd.org/kdd2020/kdd-cup">KDD 2020</a>) for more information.
-				</div>
-			</div>	
-		</div>
-		<div class="navblank"></div>
-		<div class="navblank"></div>
-		<footer></footer>
-
-		<script type="text/javascript" src="./static/js/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
-		
-	</body>
-</html>
+<html class="csstransforms csstransforms3d csstransitions">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Fragkiskos D. Malliaros">
+        <meta name="author" content="Fragkiskos D. Malliaros">
+        <title>Fragkiskos D. Malliaros - CentraleSupelec</title>
+        
+        <!-- jQuery -->
+        
+        <!-- Bootstrap -->
+        <link href="./static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="./static/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <!-- Glyphicons -->
+        <link href="./static/css/glyphicons.css" rel="stylesheet" media="screen">
+        <link href="./static/css/photoswipe.css" rel="stylesheet" media="screen">
+        <link href="./static/css/jquery.fancybox-1.3.4.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./static/css/academicons.css"/>
+
+        
+        <!-- Plugins -->
+        <script src="./static/js/jquery.min.js"></script>
+        <script src="./static/js/bootstrap.min.js"></script>
+        <script src="./static/js/jquery.easing.1.3.js"></script>
+        <script src="./static/js/jquery.isotope.min.js"></script>
+        <script src="./static/js/jquery.ba-resize.min.js"></script>
+        <script src="./static/js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="./static/js/klass.min.js"></script>
+        <script src="./static/js/code.photoswipe.jquery-3.0.4.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+        
+        <!-- Theme -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Droid+Sans|Yanone+Kaffeesatz|Droid+Serif|Ubuntu|Lobster|Francois+One|Arvo|Changa+One|Rokkitt|Nunito|Bitter|Merriweather|Raleway|Pacifico|Josefin+Sans|Questrial|Cantarell|Norican|Vollkorn|Quicksand|Limelight|Cantata+One|Bree+Serif|Oleo+Script|Playfair+Display|Quattrocento+Sans|Berkshire+Swash|Passion+One|Cuprum' rel='stylesheet' type='text/css'>
+        <link href="./static/css/css.css" rel="stylesheet" type="text/css">
+        <link href="./static/css/style.css" rel="stylesheet" media="screen">
+        <!-- Skin -->
+        <link type="text/css" rel="stylesheet" href="./static/css/skin.css" media="screen">
+        <script src="./static/js/scripts.js"></script>
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="./css/ie.css" />
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- PRINT CSS -->
+        <link type="text/css" rel="stylesheet" href="./static/css/print.css" media="print">
+
+    </head>
+
+
+    <body class="backgrounded" data-spy="scroll" data-target=".sidebar-nav" data-pinterest-extension-installed="cr1.39.1">
+        <div class="navbar navbar-inverse navbar-fixed-top visible-phone noprint" id="phone-navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Fragkiskos Malliaros</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#about-me" class="scroller">About me</a></li>
+                            <li class=""><a href="#news" class="scroller">News</a></li>
+                            <li class=""><a href="#courses" class="scroller">Teaching</a></li>
+                            <li class=""><a href="#papers" class="scroller">Publications</a></li>                    
+                            <li class=""><a href="#coauthors" class="scroller">Collaborators</a></li>
+                            <li class=""><a href="#misc" class="scroller">Misc</a></li>
+                            <li class=""><a href="#contact" class="scroller">Contact</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div><!--/#phone-navbar -->
+        <!--/#phone-navbar -->
+        <div class="container">
+            <div class="row" id="content">
+                <!-- If you want the sidebar placed on the left, place it just after this and change the sbright class by sbleft -->
+                <!-- MAIN CONTENT -->
+                <div class="span9 equal" id="main-content">
+                    <div class="tools noprint visible-desktop">
+                    </div>
+
+                    <div class="section first-section" id="about-me">
+                        <div class="row author">
+                            <!-- <div class="span5"> -->
+                            <div class="span4">
+                                <img class="img-rounded thumbnail img-responsive pull-left" src="./static/images/fragkiskos-2020-web.jpg" alt="Fragkiskos D. Malliaros logo" style="height: 14vw">   
+                            </div>                                 
+                            <!-- </div> -->
+                            <div class="span5">
+                                <div align="center">
+                                    <h2>Fragkiskos D. Malliaros  </h2>      
+                                    <h4>Associate Professor (HDR) <br>
+                                        <a class="normal-font-weight" href='http://www.centralesupelec.fr/en'>CentraleSup&eacutelec</a>,
+                                        <a class="normal-font-weight" href='https://www.universite-paris-saclay.fr/en'>Paris-Saclay University</a> <br>
+                                        <a class="normal-font-weight" href='https://opis-inria.eu/'>OPIS team</a>,
+                                        <a class="normal-font-weight" href='https://www.inria.fr/en/centre-inria-saclay-ile-de-france'>Inria Saclay</a>
+                                    </h4> 
+                                    <br/>
+                                    <div class="social-media noprint" style="margin-top:10px;">
+                                         <div>
+                                            <div class="tips icon-btn" title="E-mail" style="padding-left: 5px !important; padding-right: 5px !important"  data-placement="bottom">
+                                                <a href="mailto:fragkiskos.me@gmail.com" class="fa fa-envelope fa fa-2x" style="color:white"></a>
+                                            </div>
+                                            <div class="tips icon-btn" title="Google Scholar" style="padding-left: 5px !important; padding-right: 5px !important" data-placement="bottom">
+                                                <a href="https://scholar.google.com/citations?user=_7heOKcAAAAJ&hl=en&oi=sra" class="ai ai-google-scholar-square ai-2x" style="color:white"></a>
+                                            </div>
+                                            <div class="tips icon-btn" title="LinkedIn" style="padding-left: 5px !important; padding-right: 5px !important" data-placement="bottom"><a href="https://www.linkedin.com/in/fragkiskos-malliaros-8529b843" class="fa fa-linkedin-square fa-2x" style="color: white"><i></i></a></div>
+                                            <div class="tips icon-btn text-center" style="padding-left: 5px !important; padding-right: 5px !important" title="CV" data-placement="bottom"><a href="Fragkiskos_Malliaros_CV.pdf" class="fa fa-file-pdf-o fa-2x" style="color:white"><i></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="well">  
+                            <h3> About me </h3>
+                            <h5>
+                                <p align="justify"> I am an Associate Professor (HDR) at <a href='http://www.centralesupelec.fr/en'>CentraleSup&eacutelec</a>,
+                                <a href='https://www.universite-paris-saclay.fr/en'>Paris-Saclay University</a>, working in the <a href="http://cvn.centralesupelec.fr/">Center for Visual Computing</a>, and the <a href="http://opis-inria.eu/">OPIS</a> team of <a href="https://www.inria.fr/en/centre-inria-saclay-ile-de-france">Inria Saclay</a>. My research interests span the broad area of <b>data science</b>, with focus on <i>graph mining</i>, <i>social network analysis</i>, <i>applied machine learning</i> and <i>natural language processing</i>. </p>
+
+                                <p align="justify"> Right before that, I spent a wonderful year as a <a href="http://datascience.ucsd.edu">data science</a> postdoctoral fellow in the <a href="http://www.cse.ucsd.edu/">Department of Computer Science and Engineering</a> at <a href="http://http://ucsd.edu/">UC San Diego</a>, where I was a member of the <a href="http://ai.ucsd.edu/"> Artificial Intelligence</a> group. I was also affiliated with the <a href="http://ita.ucsd.edu/">  Information Theory and Applications Center (ITA) </a> and the <a href="http://qi.ucsd.edu/">Qualcomm Institute</a>. Between Oct. 2015 - Sept. 2016, I was a postdoctoral researcher in the <a href="http://www.lix.polytechnique.fr/dascim/">Data Science and Mining (DaSciM)</a> group of the <a href="http://www.lix.polytechnique.fr/en/">Computer Science Laboratory (LIX)</a> at <a href="http://www.polytechnique.edu/en">École Polytechnique</a> in Paris, France, from where I also received my Ph.D. degree (Sept. 2015), working under the supervision of Prof. <a href="http://www.lix.polytechnique.fr/~mvazirg/">Michalis Vazirgiannis</a>. I obtained both my Diploma and my M.Sc. degree from the <a href="http://www.ceid.upatras.gr/">Computer Engineering and Informatics Department</a> of the <a href="http://www.upatras.gr/">University of Patras</a>, Greece in 2009 and 2011 respectively. There, I was fortunate to work with Prof. <a href="http://www.ceid.upatras.gr/faculty/vasilis/english/index.html">Vasileios Megalooikonomou</a>. </p>
+
+                                <p align="justify"> During the summer of 2014, I was a research intern at the <a href="http://www.parc.com/"> Palo Alto Research Center (PARC)</a> in Palo Alto, CA. I was also the recipient of the <a href="http://research.google.com/university/relations/fellowship_recipients.html">2012 Google Europe Doctoral Fellowship in Graph Mining</a> and the 2015 Thesis Prize by Ecole Polytechnique. </p>
+                                <p></p>    
+                            </h5>
+                        </div>
+                    </div>
+                        
+                        
+                    <!-- 3 -------------------------------------------------------------------->
+                    <!-- news -------------------------------------------------------------------->
+                    <div class="section" id="news">
+                        <h2 class="section-title">
+                            <span class="fa fa-rss"><i></i></span> News<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a>
+                        </h2>
+                        <div class="timeline" id="append-news-list">
+                            <!--append list from news.json-->
+                            <span class="clear"></span>
+                        </div>
+                    </div>
+                    <span class="clear"></span>
+
+
+                <!--/section-->
+                <span class="clear"></span>
+                <div class="section noprint" id="courses">
+                    <h2 class="section-title"><span class="fa fa-newspaper-o"><i></i></span> Teaching<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+                    <div class="paper-title">
+                                <p align="justify">
+
+                    <p style="font-size:14px; color: #3F3F3F; font-weight: normal; margin-top: px; margin-bottom: 8px;">DSBA: <a href="http://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/">M.Sc. in Data Sciences and Business Analytics</a>, CentraleSup&eacutelec and ESSEC Business School<br/> 
+                    AI: <a href="http://www.centralesupelec.fr/fr/msc-artificial-intelligence/">M.Sc. in Artificial Intelligence</a>, CentraleSup&eacutelec </p>
+                    <br/>                 
+
+                    <p style="font-size:16px; color: #3F3F3F; font-weight: normal; margin-top: px; margin-bottom: 8px;">Current courses:</p>              
+                    <ul> <h5>
+                        <li> <b><a href="https://fragkiskos.me/teaching/MLNS-S22/">MLNS: Machine Learning in Network Science</a>, Applied Math, CentraleSup&eacutelec, M.Sc. in DSBA,  and M.Sc. in AI, Winter 2022 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/2EL1730-F21/">2EL1730: Machine Learning</a>, 2nd year, CentraleSup&eacutelec, Fall 2021 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ML-F21/">FML: Foundations of Machine Learning</a>, M.Sc. in DSBA, Fall 2021 </b></li>
+                        </h5>
+                    </ul>
+
+                    <p style="font-size:16px; color: #3F3F3F; font-weight: normal; margin-top: 20px; margin-bottom: 8px;">Previous courses:</p>
+                    <ul> <h5>
+                        <li> <b><a href="https://fragkiskos.me/teaching/MLNS-S21/">MLNS: Machine Learning in Network Science</a>, Applied Math, CentraleSup&eacutelec, M.Sc. in DSBA,  and M.Sc. in AI, Spring 2021 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ST2-W21/">ST2: Mathematical Modeling of Propagation Phenomena - Propagation on Graphs</a>, 1st year, CentraleSup&eacutelec, Winter 2021 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/2EL1730-F20/">2EL1730: Machine Learning</a>, 2nd year, CentraleSup&eacutelec, Fall 2020 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ML-F20/">FML: Foundations of Machine Learning</a>, M.Sc. in DSBA, Fall 2020 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/NGSA-W20/">NGSA: Network Science Analytics</a>, Applied Math (3rd year), CentraleSup&eacutelec, M.Sc. in DSBA,  and M.Sc. in AI, Spring 2020 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ST2-W20/">ST2: Mathematical Modeling of Propagation Phenomena - Propagation on Graphs</a>, 1st year, CentraleSup&eacutelec, Winter 2020 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/2EL1730-F19/">2EL1730: Machine Learning</a>, 2nd year, CentraleSup&eacutelec, Fall 2019 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ML-F19/">ML-DSBA-AI: Machine Learning</a>, M.Sc. in DSBA, and M.Sc. in AI, Fall 2019 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ST2-W19/">ST2: Mathematical Modeling of Propagation Phenomena - Propagation on Graphs</a>, 1st year, CentraleSup&eacutelec, Winter 2019 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/NGSA-W19/">NGSA: Network Science Analytics</a>, Applied Math (3rd year), CentraleSup&eacutelec, M.Sc. in DSBA,  and M.Sc. in AI, Winter 2019 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/MA2823-F18/">MA2823: Introduction to Machine Learning</a>, 2nd year, CentraleSup&eacutelec, Fall 2018 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ML-F18/">ML-DSBA-AI: Machine Learning</a>, M.Sc. in DSBA, and M.Sc. in AI, Fall 2018 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/NGSA-S18/">NGSA: Network Science Analytics</a>, Applied Math (3rd year), CentraleSup&eacutelec  and M.Sc. in DSBA, Spring 2018 </b></li>
+                        <li> <b><a href="https://fragkiskos.me/teaching/ML-F17/">ML-DSBA: Machine Learning</a>, M.Sc. in DSBA, Fall 2017 </b></li>
+                        <li> <b><a href="https://cseweb.ucsd.edu/classes/sp17/cse291-f/">CSE 291-F: Graph Mining and Network Analysis</a>, UC San Diego, Spring 2017 </b></li>
+                    </h5></ul>
+                </div>    
+                    <span class="clear"></span>
+                </div>
+                <!--/section-->
+
+
+
+                    <!-- 5 -------------------------------------------------------------------->
+                    <!-- Papers -------------------------------------------------------------------->
+                    <span class="clear"></span>   
+                    <div class="section" id="papers">
+                        <h2 class="section-title">
+                            <span class="fa fa-file"><i></i></span> Publications<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a>
+                        </h2>
+
+                        <div class="testimonial">
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">Preprints</p>
+                        <ul class="papers">
+                        <li>
+                            <div class="paper-title">
+                                A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems
+                            </div> 
+                            <div class="paper-authors">
+                               Alexandre Duval, Simon V. Mathis, Chaitanya K. Joshi, Victor Schmidt, Santiago Miret, Fragkiskos D. Malliaros, Taco Cohen, Pietro Liò, Yoshua Bengio, and Michael Bronstein.
+                            </div>
+                            <div class="paper-other">
+                                <i>Preprint</i>, 2023.
+                                <br/>
+                                [arXiv: <a href="https://arxiv.org/abs/2312.07511"> PDF</a>]
+                                <br/>
+                         </div>
+                        </li>
+
+                        
+                        </br>   
+                        </ul>
+
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2024</p>
+                        <ul class="papers"> 
+                        <li>
+                            <div class="paper-title">
+                                Learning Graph Representations for Influence Maximization
+                            </div> 
+                            <div class="paper-authors">
+                               George Panagopoulos, Nikolaos Tziortziotis, Michalis Vazirgiannis, Jun Pang, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i>Social Network Analysis and Mining (<b>SNAM</b>)</i>, Springer, 2024.
+                         </div>
+                        </li>                             
+                        <li>
+                            <div class="paper-title">
+                                Do We Really Need to Drop Items with Missing Modalities in Multimodal Recommendation?
+                            </div> 
+                            <div class="paper-authors">
+                               Daniele Malitesta, Emanuele Rossi, Claudio Pomo, Tommaso Di Noia, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                               <i> ACM International Conference on Information and Knowledge Management  (<b>CIKM</b>)</i>, Boise, Idaho, 2024. <br/> (Short paper). <br/>
+                            </div> 
+                        </li>                               
+                        <li>
+                            <div class="paper-title">
+                                Measuring Factual Correctness of Large Language Models in the Legal Domain
+                            </div> 
+                            <div class="paper-authors">
+                               Rajaa El Hamdani, Thomas Bonald, Fragkiskos D. Malliaros, Nils Holzenberger, and Fabian Suchanek.
+                            </div>
+                            <div class="paper-other">
+                               <i> ACM International Conference on Information and Knowledge Management  (<b>CIKM</b>)</i>, Boise, Idaho, 2024. <br/> (Short paper). <br/>
+                            </div> 
+                        </li>                            
+                        <li>
+                            <div class="paper-title">
+                                Improving Molecular Modeling with Geometric GNNs: an Empirical Study
+                            </div> 
+                            <div class="paper-authors">
+                               Ali Ramlaoui, Théo Saulus, Basile Terver, Victor Schmidt, David Rolnick, Fragkiskos D. Malliaros, and Alexandre Duval.
+                            </div>
+                            <div class="paper-other">
+                               <i> ICML Workshop on Machine Learning for Life and Material Science: From Theory to Industry Applications (<b>ML4LMS</b>)</i>, Vienna, Austria, 2024.
+                                <br/>
+                                [arXiv: <a href="https://arxiv.org/abs/2407.08313"> PDF</a>, Code: <a href="https: //github.com/RolnickLab/ocp">LINK</a>] </br>
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="paper-title">
+                                Uplift Modeling Under Limited Supervision
+                            </div> 
+                            <div class="paper-authors">
+                               George Panagopoulos, Daniele Malitesta, Fragkiskos D. Malliaros, and Jun Pang.
+                            </div>
+                            <div class="paper-other">
+                               <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (<b>ECML PKDD</b>)</i>, Vilnious, Lithouania, 2024.
+                                <br/>
+                                [arXiv: <a href="https://arxiv.org/abs/2403.19289v2"> PDF</a>, Code: <a href="https://github.com/geopanag/UMGNet">LINK</a>] </br>
+                            </div> 
+                        </li>
+                            
+                        <li>
+                            <div class="paper-title">
+                                Gegenbauer Graph Neural Networks for Time-varying Signal Reconstruction
+                            </div> 
+                            <div class="paper-authors">
+                               Jhon A. Castro-Correa, Jhony H. Giraldo, Mohsen Badiey, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i>IEEE Transactions on Neural Networks and Learning Systems <b>(TNNLS)</b></i>, 2024.
+                                <br/>
+                                [arXiv: <a href="https://arxiv.org/abs/2403.19800"> PDF</a>, Code: <a href="https://github.com/jcastro295/GegenGNN"> LINK</a>]
+                                <br/>
+                         </div>
+                        </li>
+                
+                        <li>
+                            <div class="paper-title">
+                                Estimation of a Causal Directed Acyclic Graph Process using Non-Gaussianity
+                            </div> 
+                            <div class="paper-authors">
+                               Aref Einizade, Jhony H. Giraldo, Fragkiskos D. Malliaros, and Sepideh Hajipour Sardouie. 
+                            </div>
+                            <div class="paper-other">
+                                <i><b>Digital Signal Processing</b></i>, Elsevier, 2024.
+                                <br/>
+                                [Journal version: <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200424000253"> LINK</a>]
+                                <br/>
+                         </div>
+                        </li>   
+
+                        <li>
+                            <div class="paper-title">
+                                A Machine Learning Tour in Network Science
+                            </div> 
+                            <div class="paper-authors">
+                               Fragkiskos D. Malliaros. 
+                            </div>
+                            <div class="paper-other">
+                                <i>Habilitation à diriger des recherches<b> (HDR)</b></i>, Université Paris-Saclay, 2024.
+                                <br/>
+                                [Manuscript: <a href="papers/HDR_Fragkiskos_Malliaros.pdf"> PDF</a>]
+                                <br/>
+                         </div>
+                        </li>                        
+                        </br>
+
+
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2023</p>
+                        <ul class="papers">
+                         <li>
+                            <div class="paper-title">
+                                Maximizing Influence with Graph Neural Networks
+                            </div> 
+                            <div class="paper-authors">
+                               George Panagopoulos, Nikolaos Tziortziotis, Michalis Vazirgiannis, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Morocco, 2023.
+                                <br/>
+                                [arXiv: <a href="https://arxiv.org/abs/2108.04623"> PDF</a>]
+                                <br/>
+                         </div>
+                        </li>   
+                         <li>
+                            <div class="paper-title">
+                                On the Trade-off between Over-smoothing and Over-squashing in Deep Graph Neural Networks
+
+                            </div> 
+                            <div class="paper-authors">
+                               Jhony H. Giraldo, Konstantinos Skianis, Thierry Bouwmans, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i> ACM International Conference on Information and Knowledge Management  (<b>CIKM</b>)</i>, Atlanta, Georgia, 2023. <br/>
+                                [Paper: <a href="https://arxiv.org/abs/2212.02374"> PDF</a>, Code: <a href="https://github.com/jhonygiraldo/SJLR"> LINK</a>] 
+                                <br/>
+                         </div>
+                        </li>
+
+                        <li>
+                            <div class="paper-title">
+                                FAENet: Frame Averaging Equivariant GNN for Materials Modeling
+                            </div> 
+                            <div class="paper-authors">
+                               Alexandre Duval, Victor Schmidt, Alex Hernandez Garcia, Santiago Miret, Fragkiskos D. Malliaros, Yoshua Bengio, and David Rolnick.
+                            </div>
+                            <div class="paper-other">
+                                <i>International Conference on Machine Learning (<b>ICML</b>)</i>, Hawaii, 2023.
+                                <br/>
+                                [Paper: <a href="https://arxiv.org/abs/2305.05577"> PDF</a>, Code: <a href="https://faenet.readthedocs.io/en/latest/"> LINK</a>]
+                                <br/>
+                         </div>
+                        </li>   
+
+                        <li>
+                            <div class="paper-title">
+                                Time-varying Signals Recovery via Graph Neural Networks
+                            </div> 
+                            <div class="paper-authors">
+                               Jhon A. Castro-Correa, Jhony H Giraldo, Anindya Mondal, Mohsen Badiey, Thierry Bouwmans, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i>IEEE International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP</b>)</i>, Rhodes Island, Greece, 2023.
+                                <br/>
+                                [Paper: <a href="https://arxiv.org/abs/2302.11313"> PDF</a>]
+                                <br/>
+                         </div>
+                        </li>   
+
+                        <li>
+                            <div class="paper-title">
+                                Higher-order Sparse Convolutions in Graph Neural Networks
+                            </div> 
+                            <div class="paper-authors">
+                               Jhony H Giraldo, Sajid Javed, Arif Mahmood, Fragkiskos D. Malliaros, and Thierry Bouwmans.
+                            </div>
+                            <div class="paper-other">
+                                <i>IEEE International Conference on Acoustics, Speech, and Signal Processing (<b>ICASSP</b>)</i>, Rhodes Island, Greece, 2023.
+                                <br/>
+                                [Paper: <a href="https://arxiv.org/abs/2302.10505"> PDF</a>]
+                                <br/>
+                         </div>
+                        </li>
+                        <br/>  
+
+
+
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2022</p>
+                        <ul class="papers">
+                        <li>
+                            <div class="paper-title">
+                                BraneMF: Integration of Biological Networks for Functional Analysis of Proteins
+                            </div> 
+                            <div class="paper-authors">
+                               Surabhi Jagtap, Abdulkadir Çelikkanat, Aurélie Pirayre, Frederique Bidard, Laurent Duval, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i><b>Bioinformatics</b></i>, Oxford University Press, 2022.
+                                <br/>
+                                [Journal Version: <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac691/6793849?redirectedFrom=fulltext"> LINK</a>, Paper: <a href="papers/BraneMF_Bioinformatics_2022.pdf"> PDF</a>, Code: <a href="https://github.com/Surabhivj/BraneMF"> LINK</a>]
+                                <br/>
+                         </div>
+                        </li>
+
+                            <li>    
+                            <div class="paper-title">
+                                BRANEnet: Embedding Multilayer Networks for Omics Data Integration
+                            </div> 
+                            <div class="paper-authors">
+                               Surabhi Jagtap, Aurélie Pirayre, Frederique Bidard, Laurent Duval, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i><b>BMC Bioinformatics</b></i>, 2022.
+                                <br/>
+                                [Journal Version: <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04955-w#article-info"> PDF</a>, Code: <a href="https://github.com/Surabhivj/BRANEnet"> LINK</a>], Code and data: <a href="https://zenodo.org/record/7007534#.Yxm9SOyxX0o"> LINK</a>] </br>
+                            </div>
+                            </li>
+                            <li>
+                                    <div class="paper-title">
+                                    NodeSig: Binary Node Embeddings via Random Walk Diffusion
+
+                                    </div>
+                                    <div class="paper-authors">
+                                    Abdulkadir Çelikkanat, Apostolos N. Papadopoulos, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                    <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Istanbul, Turkey, 2022.
+                                    <br/>
+                                    [Paper: <a href="https://arxiv.org/abs/2010.00261"> PDF</a>, Code: <a href="https://abdcelikkanat.github.io/projects/nodesig"> LINK</a>] 
+                                    </br>
+                                    </div>
+                            </li>
+                            <li>
+                                    <div class="paper-title">
+                                    Higher-order Clustering and Pooling for Graph Neural Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Alexandre Duval  and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> ACM International Conference on Information and Knowledge Management  (<b>CIKM</b>)</i>, Atlanta, Georgia, 2022. <br/>
+                                        <i>ICML Workshop on Topology, Algebra, and Geometry in Machine Learning (<b>TAG:ML</b>)</i>, Baltimore, Maryland, 2022.
+                                        <br/>
+                                        [Paper: <a href="https://arxiv.org/abs/2209.03473"> PDF</a>, Code: <a href="https://github.com/AlexDuvalinho/HoscPool"> LINK</a>] 
+                                    </br>
+                                    </div>                                    
+                                </li>                            
+                            <li>
+                            <div class="paper-title">
+                                Multiple Similarity Drug-Target Interaction Prediction with Random Walks and Matrix Factorization
+                            </div> 
+                            <div class="paper-authors">
+                               Bin Liu, Dimitrios Papadopoulos, Fragkiskos D. Malliaros, Grigorios Tsoumakas, and Apostolos N. Papadopoulos.
+                            </div>
+                            <div class="paper-other">
+                                <i><b>Briefings in Bioinformatics</b></i>, Oxford University Press, 2022.
+                                <br/>
+                                [Journal Version: <a href="https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbac353/6692553?redirectedFrom=fulltext">PDF</a>, arXiv: <a href="https://arxiv.org/abs/2201.09508"> PDF</a>, Code: <a href="https://github.com/intelligence-csd-auth-gr/DTI_MDMF2A">LINK</a>] </br>
+                         </div>
+                            </li>
+                            <li>
+                            <div class="paper-title">
+                                Multiple Kernel Representation Learning on Networks
+                            </div> 
+                            <div class="paper-authors">
+                               Abdulkadir Çelikkanat, Yanning Shen, and Fragkiskos D. Malliaros.
+                            </div>
+                            <div class="paper-other">
+                                <i>IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>)</i>, 2022.  <br/>
+                                [Journal Version: <a href="https://ieeexplore.ieee.org/document/9768031"> PDF</a>, arXiv: <a href="https://arxiv.org/abs/2106.05057"> PDF</a>, Code: <a href="https://abdcelikkanat.github.io/projects/kernelNE/">LINK</a>] </br>
+                            </div>
+                            </li>
+                            <li>
+                                    <div class="paper-title">
+                                        Multivariate Lipschitz Analysis of the Stability of Neural Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Kavya Gupta, Fateh Kaakai, Beatrice Pesquet-Popescu, Jean-Christophe Pesquet, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Frontiers in Signal Processing (<b>Front. Sig. Proc.</b>)</i>, 2022.
+                                        <br/>
+                                        [Journal Version: <a href="https://www.frontiersin.org/articles/10.3389/frsip.2022.794469/abstract"> LINK</a>] </br>
+                                    </div>
+                            </li>        
+                        </ul>
+                        <br/>
+
+
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2021</p>
+                        <ul class="papers">
+                                <li>
+                                    <div class="paper-title">
+                                        BRANET: Graph-based Integration of Multi-omics Data with Biological a priori for Regulatory Network Inference
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Surabhi Jagtap, Aurélie Pirayre, Frederique Bidard, Laurent Duval, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>International Conference on Computational Intelligence Methods for Bioinformatics and Biostatistics (<b>CIBB</b>)</i>, Online, 2021.
+                                        <br/>
+                                        [Paper: <a href="https://hal.archives-ouvertes.fr/hal-03425420"> PDF</a>, Code: <a href="https://github.com/Surabhivj/BRANet">LINK</a>] </br>
+                                    </div>  
+                                                                     
+                                </li>
+                                <li>
+                                    <div class="paper-title">
+                                    Influence Learning and Maximization (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         George Panagopoulos and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Online, 2021. <br/>
+                                        [Tutorial Website: <a href="projects/influence_learning_tutorial/"> LINK</a>] </br>
+                                    </div>                                    
+                              </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        GraphSVX: Shapley Value Explanations for Graph Neural Networks 
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Alexandre Duval and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (<b>ECML PKDD</b>)</i>, Online, 2021.
+                                        <br/>
+                                        [Paper: <a href="papers/GraphSVX_ECML_PKDD_2021.pdf"> PDF</a>, arXiv (full version): <a href="https://arxiv.org/abs/2104.10482"> PDF</a>, Code: <a href="https://github.com/AlexDuvalinho/GraphSVX">LINK</a>] </br>
+                                    </div>                                    
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Multiomics Data Integration for Gene Regulatory Network Inference with Exponential Family Embeddings  
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Surabhi Jagtap, Abdulkadir Çelikkanat, Aurélie Pirayre, Frederique Bidard, Laurent Duval, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>European Signal Processing Conference (<b>EUSIPCO</b>)</i>, Dublin, Ireland, 2021.
+                                        <br/>
+                                        [Paper: <a href="papers/Multiomics_GRN_EUSIPCO_2021.pdf"> PDF</a>, Code: <a href="https://github.com/Surabhivj/BRANE-EXP">LINK</a>] </br>
+
+                                    </div>                                    
+                                </li>
+
+                               <li>
+                                    <div class="paper-title">
+                                        An Adversarial Attacker for Neural Networks in Regression Problems 
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Kavya Gupta, Beatrice Pesquet-Popescu, Fateh Kaakai, Jean-Christophe Pesquet, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IJCAI AI Safety Workshop (<b>AISafety</b>)</i>, Online, 2021.</br>
+                                        [Paper: <a href="http://ceur-ws.org/Vol-2916/paper_17.pdf"> PDF</a>] </br>
+                                        <font color="#bc5a45"> <b><i class='fas fa-award' style='font-size:20px'></i> Shortlisted for the Best Paper Award. </b></font><br/>
+                                    </div>                                    
+                                </li> 
+
+                              <li>
+                                    <div class="paper-title">
+                                        Topic-Aware Latent Models for Representation Learning on Networks  
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Abdulkadir Çelikkanat and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Pattern Recognition Letters (<b>Pattern Recognit. Lett.</b>)</i>, Elsevier, 2021.
+                                        <br/>
+                                        [HAL repository: <a href="https://hal.archives-ouvertes.fr/hal-03420690"> LINK</a>, Journal Version: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865521000167"> LINK</a>] </br>
+                                    </div>                                    
+                                </li>
+                                
+                              <li>
+                                    <div class="paper-title">
+                                    Influence Learning and Maximization (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         George Panagopoulos and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> International Conference on Web Engineering (<b>ICWE</b>)</i>, Online, 2021. <br/>
+                                        [Paper: <a href="papers/Influence_Learning_Maximization_ICWE_2021.pdf"> PDF</a>, Tutorial Website: <a href="projects/influence_learning_tutorial/"> LINK</a>] </br>
+                                    </div>                                    
+                              </li>
+                        </ul>
+                        <br/> 
+
+
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2020</p>
+                        <ul class="papers">
+                              <li>
+                                    <div class="paper-title">
+                                        Multi-task Learning for Influence Estimation and Maximization 
+                                    </div> 
+                                    <div class="paper-authors">
+                                         George Panagopoulos, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>)</i>, 2020. <br/>
+                                        [Journal Version: <a href="https://ieeexplore.ieee.org/document/9268092"> PDF</a>, arXiv: <a href="https://arxiv.org/abs/1904.08804"> PDF</a>, Code: <a href="https://github.com/geopanag/IMINFECTOR">LINK</a>]
+                                    </div>                                    
+                                </li>
+
+                             <li>
+                                    <div class="paper-title">
+                                        Boosting Tricks for Word Mover’s Distance
+                                    </div>
+                                    <div class="paper-authors">
+                                        Konstantinos Skianis, Fragkiskos D. Malliaros, Nikolaos Tziortziotis, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>International Conference on Artificial Neural Networks (<b>ICANN</b>)</i>, Bratislava, Slovakia, 2020.
+                                        <br/>
+                                        [Paper: <a href="papers/boosting_WMD_ICANN20.pdf"> PDF</a>]
+                                    </div>
+                                </li> 
+
+
+                                <li>
+                                    <div class="paper-title">
+                                        Exponential Family Graph Embeddings
+                                    </div>
+                                    <div class="paper-authors">
+                                        Abdulkadir Çelikkanat and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>AAAI Conference on Artificial Intelligence (<b>AAAI</b>)</i>, New York City, New York, 2020. <br/>
+                                        [arXiv: <a href="https://arxiv.org/abs/1911.09007"> PDF</a>, Code: <a href="https://abdcelikkanat.github.io/projects/EFGE/">LINK</a>]
+                                    </div>
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                        Influence Maximization using Influence and Susceptibility Embeddings
+                                    </div>
+                                    <div class="paper-authors">
+                                        George Panagopoulos, Michalis Vazirgiannis, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>AAAI International Conference on Web and Social Media (<b>ICWSM</b>)</i>, Atlanta, Georgia, 2020. <br/>
+                                        [Paper: <a href="https://www.aaai.org/ojs/index.php/ICWSM/article/view/7319/7173"> PDF</a>, Code: <a href="https://github.com/GiorgosPanagopoulos/IMINFECTOR">LINK</a>] <br/>
+                                        <font color="#bc5a45"> <b><i class='fas fa-award' style='font-size:20px'></i> Best Paper Honorable Mention Award. </b></font><br/>
+                                    </div>
+                                </li> 
+
+                                                            <li>
+                                    <div class="paper-title">
+                                    The Core Decomposition of Networks: Theory, Algorithms and Applications
+                                    </div>
+                                    <div class="paper-authors">
+                                        Fragkiskos D. Malliaros, Christos Giatsidis, Apostolos N. Papadopoulos, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>International Journal on Very Large Data Bases (<b>The VLDB Journal</b>)</i>, 2020. <br/>
+                                        [Journal Version: <a href="https://link.springer.com/article/10.1007%2Fs00778-019-00587-4"> LINK</a>, HAL Repository: <a href="https://hal-centralesupelec.archives-ouvertes.fr/hal-01986309"> PDF</a>]
+                                    </div>
+                                </li> 
+                            
+                             </ul>   
+                            <br/> 
+
+
+
+                        <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2019</p>
+                        <ul class="papers">
+
+                                <li>
+                                    <div class="paper-title">
+                                        Dynamic Monitoring of Software Use with Recurrent Neural Networks
+                                    </div>
+                                    <div class="paper-authors">
+                                        Chloé Adam, Antoine Aliotti, Fragkiskos D. Malliaros, and Paul-Henry Cournède.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Data &amp; Knowledge Engineering (<b>DKE</b>)</i>, Elsevier, 2019. <br/>
+                                        [Journal Version: <a href="https://www.sciencedirect.com/science/article/pii/S0169023X19300941"> LINK</a>]
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="paper-title">
+                                        Learning Node Embeddings with Exponential Family Distributions
+                                    </div>
+                                    <div class="paper-authors">
+                                        Abdulkadir Çelikkanat and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>NeurIPS  Graph Representation Learning Workshop (<b>NeurIPS-GRL</b>)</i>, Vancouver, Canada, 2019.<br/>
+                                        [Paper: <a href="papers/EFGE_NeurIPS_GRL_2019.pdf"> PDF</a>]
+                                    </div>
+                                </li>
+                            
+
+                                <li>
+                                    <div class="paper-title">
+                                        Kernel Node Embeddings
+                                    </div>
+                                    <div class="paper-authors">
+                                        Abdulkadir Çelikkanat and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>7th IEEE Global Conference on Signal and Information Processing (<b>GlobalSIP</b>)</i>, Ottawa, Canada, November 2019.<br/>
+                                        [Paper: <a href="papers/kernelNE_GlobalSIP_2019.pdf"> PDF</a>, Code: <a href="https://abdcelikkanat.github.io/projects/kernelNE/">LINK</a>]
+                                    </div>
+                                </li>   
+
+                                <li>
+                                    <div class="paper-title">
+                                        Perturb and Combine to Identify Influential Spreaders in Real-World Networks
+
+                                    </div>
+                                    <div class="paper-authors">
+                                        Antoine J.-P. Tixier, Maria-Evgenia G. Rossi, Fragkiskos D. Malliaros, Jesse Read, and Michalis Vazirgiannis.
+
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Vancouver, Canada, August 2019. <br/>
+                                        [arXiv: <a href="https://arxiv.org/abs/1807.09586"> PDF</a>]
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Semi-Supervised Learning and Graph Neural Networks for Fake News Detection
+
+                                    </div>
+                                    <div class="paper-authors">
+                                        Adrien Benamira, Benjamin Devillers, Etienne Lesot, Ayush K. Rai, Manal Saadi, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Vancouver, Canada, August 2019. <br/>
+                                        Also presented at the <i>International Conference on Computational Social Science (<b>IC2S2</b>)</i>, Amsterdam, The Netherlands, July 2019. <br/>
+                                        [Full paper: <a href="https://hal.archives-ouvertes.fr/hal-02334445/document"> PDF</a>, Code: <a href="https://github.com/bdvllrs/misinformation-detection-tensor-embeddings">LINK</a>]
+                                    </div>
+                                </li>
+
+                        </ul>
+                        <br/>
+ 
+                            <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2018</p>
+                            <ul class="papers">
+                                <li>
+                                    <div class="paper-title">
+                                        TNE: A Latent Model for Representation Learning on Networks
+
+                                    </div>
+                                    <div class="paper-authors">
+                                        Abdulkadir Çelikkanat and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>NeurIPS  Relational Representation Learning Workshop (<b>NeurIPS-R2L</b>)</i>, Montréal, Canada, 2018. <br/>
+                                        [Paper: <a href="papers/TNE_NeurIPS_R2L_2018.pdf"> PDF</a>, Poster: <a href="papers/TNE_Poster_R2L_NeurIPS_2018.pdf"> PDF</a>,  Code: <a href="https://abdcelikkanat.github.io/projects/TNE/">LINK</a>]
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        BiasedWalk: Biased Sampling for Representation Learning on Graphs
+                                    </div>
+                                    <div class="paper-authors">
+                                        Duong Nguyen and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE International Conference on Big Data Workshops (<b>Big Data</b>)</i>, Seattle, WA, 2018. <br/>
+                                        [Paper: <a href="papers/BiasedWalk_BigGraphs_2018.pdf"> PDF</a>, HAL: <a href="https://hal-centralesupelec.archives-ouvertes.fr/hal-01958902"> PDF</a>]
+                                    </div>
+                                </li>
+ 
+
+                                <li>
+                                    <div class="paper-title">
+                                        MATI: An Efficient Algorithm for Influence Maximization in Social Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Maria-Evgenia G. Rossi, Bowen Shi, Nikolaos Tziortziotis, Fragkiskos D. Malliaros, Christos Giatsidis, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i><b>PLOS One</b></i>, 2018. <br/>
+                                        [Journal version: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206318"> LINK</a>] </br>
+                                    </div>                              
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        DiffuGreedy: An Influence Maximization Algorithm based on Diffusion Cascades 
+                                    </div> 
+                                    <div class="paper-authors">
+                                         George Panagopoulos, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> International Conference on Complex Networks and Their Applications (<b>Complex Networks</b>)</i>, Cambridge, UK,  2018.
+                                        <br/>
+                                        [Paper: <a href="papers/DiffuGreedy_ComplexNetworks_2018"> PDF</a>, Journal version: <a href="https://link.springer.com/chapter/10.1007/978-3-030-05411-3_32"> LINK</a>,   Code: <a href="https://github.com/GiorgosPanagopoulos/DiffuGreedy-Influence-Maximization"> LINK</a>] </br>
+                                    </div>                                    
+                                </li> 
+ 
+
+                                <li>
+                                    <div class="paper-title">
+                                    <i>k</i>-Degree Anonymity on Directed Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Jordi Casas-Roma, Julián Salas, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Knowledge and Information Systems (<b>KAIS</b>)</i>, Springer, 2018. <br/>
+                                        [Paper: <a href="papers/k-degree-anonymity_KAIS_2018.pdf"> PDF</a>, Journal version: <a href="https://link.springer.com/article/10.1007%2Fs10115-018-1251-5"> LINK</a>,   Code: <a href="https://jcasasr.wordpress.com/software/dga/"> LINK</a>] </br>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                    GraphRep: Boosting Text Mining, NLP and Information Retrieval with Graphs (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Michalis Vazirgiannis, Fragkiskos D. Malliaros, and Giannis Nikolentzos.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> ACM International Conference on Information and Knowledge Management  (<b>CIKM</b>)</i>, Turin, Italy, 2018. <br/>
+                                        [Paper: <a href="papers/GraphRep_CIKM_2018_Tutorial.pdf"> PDF</a>,  Tutorial Website: <a href="projects/graph_text_tutorial"> LINK</a>] </br>
+                                    </div>                                    
+                                </li>
+
+                            <li>
+                                    <div class="paper-title">
+                                        Fusing Document, Collection and Label Graph-based Representations with Word Embeddings for Text Classification
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Konstantinos Skianis, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>NAACL-HLT Workshop on Graph-Based Natural Language Processing (<b>TextGraphs</b>)</i>, New Orleans, Louisiana, June 2018.
+                                        <br/>
+                                       [Paper: <a href="papers/fusing_document_collection_TextGraphs18.pdf"> PDF</a>, Code:  <a href="https://github.com/y3nk0/Graph-Based-TC"> LINK</a>]</br>
+                                       <font color="#bc5a45"> <b><i class='fas fa-award' style='font-size:20px'></i> Best Paper Award. </b></font><br/>
+                                    </div>
+
+
+                                                                            
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Reconstructing Uncertain Graphs Based on Low-Rank Factorizations
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Ke Sun, Fragkiskos D. Malliaros, Frank Nielsen, and Michalis Vazirgiannis.
+
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>From Physics to Information Sciences and Geometry (<b>Entropy</b>) </i>, Barcelona, May 2018.
+                                        <br/>
+                                       <!--[Paper: <a href="https://hal-centralesupelec.archives-ouvertes.fr/hal-01672970/document"> PDF</a>]</br> -->
+                                    </div> 
+                                </li> 
+
+                            <li>
+                                    <div class="paper-title">
+                                    Graph-based Text Representations: Boosting Text Mining, NLP and Information Retrieval with Graphs (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros, Polykarpos Meladianos, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> The Web Conference (<b>WWW</b>)</i>, Lyon, France, 2018. <br/>
+                                        [Tutorial Website: <a href="projects/graph_text_tutorial"> LINK</a>]
+                                    </div>                                    
+                                </li>    
+                                <br/> 
+                            </ul>     
+ 
+                            <p style="font-size:26px; color: #3F3F3F; font-weight: normal; margin-top: 10px; margin-bottom: 20px;">2017</p>
+
+                            <ul class="papers">
+                                <li>
+                                    <div class="paper-title">
+                                        MATI: An Efficient Algorithm for Influence Maximization in Social Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Maria-Evgenia G. Rossi, Bowen Shi, Nikolaos Tziortziotis, Fragkiskos D. Malliaros, Christos Giatsidis, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> International Conference on Complex Networks and Their Applications (<b>Complex Networks</b>)</i>, Lyon, France, December 2017.
+                                        <br/>
+                                        [Paper: <a href="https://hal-centralesupelec.archives-ouvertes.fr/hal-01672970/document"> PDF</a>]</br>
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                        NetGloVe: Learning Node Representations for Community Detection
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Kumaran Gunasekaran, Jeyavaishnavi Muralikumar, Sudarshan Srinivasa Ramanujam, Balasubramaniam Srinivasan, and Fragkiskos D. Malliaros.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> International Conference on Complex Networks and Their Applications (<b>Complex Networks</b>)</i>, Lyon, France, December 2017.
+                                        <br/>
+                                        [Paper: <a href="https://hal-centralesupelec.archives-ouvertes.fr/hal-01672969/document"> PDF</a>]</br>
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                        Core Decomposition of Uncertain Graphs Using Representative Instances
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Damien Seux, Fragkiskos D. Malliaros, Apostolos Papadopoulos, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> International Conference on Complex Networks and Their Applications (<b>Complex Networks</b>)</i>, Lyon, France, December 2017.
+                                        <br/>
+                                        [Paper: <a href="https://hal.archives-ouvertes.fr/hal-01672968/document"> PDF</a>]</br>
+                                    </div>                                    
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                    Core Decomposition of Networks: Concepts, Algorithms and Applications (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros, Apostolos N. Papadopoulos and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (<b>ECML-PKDD</b>)</i>, Skopje, September 2017.  <br/>
+                                        [Tutorial Website: <a href="projects/core_tutorial"> LINK</a>]
+                                    </div>                                    
+                                </li> 
+
+                                 <li>
+                                    <div class="paper-title">
+                                    Graph-based Text Representations: Boosting Text Mining, NLP and Information Retrieval with Graphs (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> Conference on Empirical Methods in Natural Language Processing (<b>EMNLP</b>)</i>, Copenhagen, Denmark, September 2017. <br/>
+                                        [Tutorial Website: <a href="projects/graph_text_tutorial"> LINK</a>]
+                                    </div>                                    
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Sensitivity of Community Structure to Network Uncertainty
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Marc Mitri, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> SIAM International Conference on Data Mining (<b>SDM</b>)</i>, Houston, Texas, April 2017. </br>
+                                        [Paper: <a href="papers/sensitivity_communities_SDM_2017.pdf"> PDF</a>, Slides: <a href="papers/Slides_Communities_SDM_2017.pdf"> PDF</a>, Project Website: <a href="https://fragkiskosm.github.io/projects/communities_sensitivity">LINK</a>] </br>
+
+                                        <font color="#bc5a45"> <b>Received the SIAM/NSF Early Career Travel Award. </b></font><br/>
+                                    </div>                                    
+                                </li> 
+
+                            </ul>    
+
+                            <p style="font-size:27px; color: #3F3F3F; font-weight: normal; margin-top: 30px; margin-bottom: 20px;">2016</p>
+
+                            <ul class="papers">
+                                <li>
+                                    <div class="paper-title">
+                                        SpreadViz: Analytics and Visualization of Spreading Processes in Social Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Konstantinos Skianis, Maria Evgenia G. Rossi, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE International Conference on Data Mining (<b>ICDM</b>)</i>, Barcelona, Spain, December 2016.<br/>
+                                        (Demo paper)
+                                    </div>                                    
+                                </li> 
+                                
+                                <li>
+                                    <div class="paper-title">
+                                    Core Decomposition of Networks: Concepts, Algorithms and Applications (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros, Apostolos N. Papadopoulos and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE International Conference on Data Mining (<b>ICDM</b>)</i>, Barcelona, Spain, December 2016.  <br/>
+                                        (Acceptance Rate: 4/17) <br/>
+                                        [Tutorial Website: <a href="projects/core_tutorial"> LINK</a>]
+                                    </div>                                    
+                                </li> 
+
+
+                                 <li>
+                                    <div class="paper-title">
+                                    A Graph Degeneracy-based Approach to Keyword Extraction
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Antoine J.-P. Tixier, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> Conference on Empirical Methods in Natural Language Processing (<b>EMNLP</b>)</i>, Austin, Texas, November 2016. <br/>
+                                        [Paper: <a href="papers/keywords_degeneracy_EMNLP_2016.pdf"> PDF</a>]
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                        A k-core Decomposition Framework for Graph Clustering
+                                    </div>
+                                    <div class="paper-authors">
+                                        Christos Giatsidis, Fragkiskos D. Malliaros, Nikolaos Tziortziotis, Charanpal Dhanjal, Emmanouil Kiagias, Dimitrios M. Thilikos, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Preprint</i>, 2016. <br/>
+                                        [arXiv: <a href="http://arxiv.org/abs/1607.02096"> PDF</a>]
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Locating Influential Nodes in Complex Networks
+                                    </div>
+                                    <div class="paper-authors">
+                                        Fragkiskos D. Malliaros, Maria-Evgenia G. Rossi and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Scientific Reports</i>, Nature Publishing Group, 2016. <br/>
+                                        (Impact Factor: 5.228) <br/>
+                                        [Journal Version: <a href="http://www.nature.com/articles/srep19307"> LINK</a>] <br/>
+                                        <font color="#bc5a45"> <b>Editor's choice: complex networks. </b></font><br/>
+
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Core Decomposition in Graphs: Concepts, Algorithms and Applications (Tutorial)
+                                    </div>
+                                    <div class="paper-authors">
+                                        Fragkiskos D. Malliaros, Apostolos N. Papadopoulos and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>International Conference on Extending Database Technology (<b>EDBT</b>)</i>, Bordeaux, France, March 2016. <br/>
+                                        [Paper: <a href="papers/core_decomposition_EDBT_2016.pdf"> PDF</a>, Slides: <a href="papers/Tutorial_Slides_EDBT_2016.pdf"> PDF</a>]
+                                    </div>
+                                </li>   
+                            </ul>    
+
+                            <p style="font-size:27px; color: #3F3F3F; font-weight: normal; margin-top: 30px; margin-bottom: 20px;">2015</p>
+                            <ul class="papers">
+                                 <li>
+                                    <div class="paper-title">
+                                    Vulnerability Assessment in Social Networks under Cascade-based Node Departures
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i> EPL (Europhysics Letters)</i>, 110(6): 68006, IOP Science, 2015. <br/>
+                                        (Impact Factor: 1.963) <br/>
+                                        [Journal Version:<a href="http://iopscience.iop.org/0295-5075/110/6/68006"> LINK</a>]
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                    Graph-Based Term Weighting for Text Categorization
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros and Konstantinos Skianis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Social Media and Risk Workshop (SoMeRis), IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Paris, France, August 2015. <br/>
+                                        [Paper: <a href="papers/graph_text_SOMERIS_2015.pdf"> PDF</a>, Slides: <a href="papers/Slides_SOMERIS_2015.pdf"> PDF</a>]
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                    Core Decomposition: Algorithms and Applications (Tutorial)
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros, Michalis Vazirgiannis and Apostolos N. Papadopoulos.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>IEEE/ACM Intern. Conf. on Advances in Social Networks Analysis and Mining (<b>ASONAM</b>)</i>, Paris, France, August 2015.<br/>
+                                        [Tutorial Website: <a href="https://sites.google.com/site/coredecomposition/"> LINK</a>]
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                    Disengagement Social Contagion: Assessing Network Vulnerability under Node Departures
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>International Conference on Computational Social Science (<b>ICCSS</b>)</i>, Helsinki, Finland, June 2015. <br/>
+                                        [Paper: <a href="papers/disengagement_ICCSS_2015.pdf"> PDF</a>]
+                                    </div>                                    
+                                </li> 
+
+                                <li>
+                                    <div class="paper-title">
+                                    Spread it Good, Spread it Fast: Identification of Influential Nodes in Social Networks
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Maria-Evgenia G. Rossi, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>International World Wide Web Conference (<b>WWW</b>)</i>, Florence, Italy, May 2015. <br/>
+                                        [Paper: <a href="papers/influential_spreaders_WWW_2015.pdf"> PDF</a>, Poster: <a href="papers/influential_spreaders_poster_WWW_2015.pdf"> PDF </a>]
+                                    </div>                                    
+                                </li> 
+                            </ul>
+                            <p style="font-size:27px; color: #3F3F3F; font-weight: normal; margin-top: 30px; margin-bottom: 20px;">2014</p>
+                            <ul class="papers">
+                                <li>
+                                    <div class="paper-title">
+                                    Estimating Robustness in Large Social Graphs
+                                    </div> 
+                                    <div class="paper-authors">
+                                         Fragkiskos D. Malliaros, Vasileios Megalooikonomou, and Christos Faloutsos.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>Knowledge and Information Systems (<b>KAIS</b>)</i>, Springer, 2014. <br/>
+                                        (Impact Factor: 1.702) <br/>
+                                        [Paper: <a href="papers/robustness_KAIS_2014.pdf"> PDF</a>, Journal Version:<a href="http://link.springer.com/article/10.1007/s10115-014-0810-7"> LINK</a>]
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="paper-title">
+                                        CoreCluster: A Degeneracy Based Graph Clustering Framework
+                                    </div>
+                                    <div class="paper-authors">
+                                        Christos Giatsidis, Fragkiskos D. Malliaros, Dimitrios M. Thilikos and Michalis Vazirgiannis.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>AAAI Conference on Artificial Intelligence (<b>AAAI</b>)</i>, Quebec City, Canada, July 2014.  <br/>
+                                        (Acceptance Rate: 28%) <br/>
+                                        [Paper: <a href="papers/corecluster_aaai14.pdf"> PDF</a>, Poster: <a href="papers/poster_corecluster_aaai14.pdf"> PDF</a>]                                    
+                                    </div>                              
+                                <!-- </li> -->
+                            </ul> 
+                            <p style="font-size:27px; color: #3F3F3F; font-weight: normal; margin-top: 30px; margin-bottom: 20px;">2013</p>
+                            <ul class="papers">
+                                <li>
+                                <div class="paper-title">
+                                    To Stay or Not to Stay: Modeling Engagement Dynamics in Social Graphs
+                                </div>
+                                <div class="paper-authors">
+                                    Fragkiskos D. Malliaros and Michalis Vazirgiannis.
+                                </div>
+                                <div class="paper-other">
+                                    <i>ACM International Conference on Information and Knowledge Management (<b>CIKM</b>)</i>, San Francisco, October 2013. <br/>
+                                    (Full Paper, Acceptance Rate: 16.9%) <br/>
+                                    [Paper: <a href="papers/engagement_CIKM_2013.pdf"> PDF</a>, Slides: <a href="papers/Slides_Engagement_CIKM13.pdf"> PDF</a>]
+                                                                        
+                                </div>
+                                </li>
+
+                                <li>
+                                <div class="paper-title">
+                                    Clustering and Community Detection in Directed Networks: A Survey
+                                </div>
+                                <div class="paper-authors">
+                                    Fragkiskos D. Malliaros and Michalis Vazirgiannis.
+                                </div>
+                                <div class="paper-other">
+                                    <i>Physics Reports</i>, 533(4): 95-142, Elsevier, 2013.  <br/>
+                                    (Impact Factor: 22.929) <br/>
+                                    [Journal Version:<a href="http://www.sciencedirect.com/science/article/pii/S0370157313002822#"> LINK</a>, arXiv Preprint: <a href="http://arxiv.org/pdf/1308.0971.pdf"> PDF</a>]
+                                    
+                                </div>
+                                </li>
+
+                                <li>
+                                <div class="paper-title">
+                                    Multiresolution Similarity Search in Time Series Data: An Application to EEG Signals
+                                </div>
+                                <div class="paper-authors">
+                                    Amalia Charisi, Fragkiskos D. Malliaros, Evangelia Zacharaki, and Vasileios Megalooikonomou.
+                                </div>
+                                <div class="paper-other">
+                                    <i>ACM International Conf. on Pervasive Technologies Related to Assistive Environments  (<b>PETRA</b>)</i>, Rhodes, Greece, May 2013. <br/>
+                                    [Paper: <a href="papers/mrpvq_PETRA13.pdf"> PDF</a>]
+                                </div>
+                                </li>
+
+
+                                <li>
+                                <div class="paper-title">
+                                    Graph Mining Tools for Community Detection and Evaluation in Social Networks and the Web (Tutorial)
+                                </div>
+                                <div class="paper-authors">
+                                    Christos Giatsidis, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                </div>
+                                <div class="paper-other">
+                                    <i>International World Wide Web Conference (<b>WWW</b>)</i>, Rio de Janeiro, Brazil, May 2013.<br/>
+                                    [Tutorial Slides: <a href="http://www.lix.polytechnique.fr/~fmalliaros/papers/Tutorial_Slides_WWW_2013.pdf">PDF</a>]
+                                </div>
+                                </li>
+
+
+                                <li>
+                                <div class="paper-title">
+                                    Advanced Graph Mining for Community Evaluation in Social Networks and the Web (Tutorial)
+                                </div>
+                                <div class="paper-authors">
+                                    Christos Giatsidis, Fragkiskos D. Malliaros, and Michalis Vazirgiannis.
+                                </div>
+                                <div class="paper-other">
+                                    <i>ACM International Conference on Web Search and Data Mining (<b>WSDM</b>)</i>, Rome, Italy, February 2013. <br/>
+                                    [Paper: <a href="papers/tutorial_abstract_WSDM13.pdf"> PDF</a>, Tutorial Website: <a href="http://www.lix.polytechnique.fr/~mvazirg/WSDM2013_tutorial/">LINK</a>]
+                                </div>
+                                </li>
+                            </ul>
+                            <p style="font-size:27px; color: #3F3F3F; font-weight: normal; margin-top: 30px; margin-bottom: 20px;">2011 - 2012</p>
+                            <ul class="papers">
+                                <li>
+                                    <div class="paper-title">
+                                        Fast Robustness Estimation in Large Social Graphs: Communities and Anomaly Detection
+                                    </div>
+                                    <div class="paper-authors">
+                                        Fragkiskos D. Malliaros, Vasileios Megalooikonomou, and Christos Faloutsos.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>SIAM International Conference on Data Mining (<b>SDM</b>)</i>, Anaheim, California, April 2012. <br/>
+                                        (Acceptance Rate: 27%) <br/>
+                                        [Paper: <a href="papers/robustness_SDM12.pdf"> PDF</a>, Poster: <a href="papers/robustness_poster_SDM12.pdf"> PDF</a>]
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="paper-title">
+                                        Expansion Properties of Large Social Graphs
+                                    </div>
+                                    <div class="paper-authors">
+                                        Fragkiskos D. Malliaros and Vasileios Megalooikonomou.
+                                    </div>
+                                    <div class="paper-other">
+                                        <i>DASFAA International Workshop on Social Networks and Social Media Mining on the Web (<b>SNSMW</b>)</i>, Hong Kong, April 2011. <br/>
+                                        [Paper: <a href="papers/expansion_SNSMW11.pdf"> PDF</a>, Slides: <a href="papers/expansion_slides_SNSMW11.pdf"> PDF</a>] 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/section-->
+
+                    <span class="clear"></span>
+                    <div class="section" id="coauthors">
+                        <h2 class="section-title">
+                            <span class="fa fa-users"><i></i></span> Collaborators<a href="http://people.eecs.berkeley.edu/~dimitrisp/#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a>
+                        </h2>
+                        <div class="well">
+                            <!--h4>Acknowledgements</h4> <!-->
+                        <h5> I have been very privileged to collaborate with the following great people, listed in chronological order of collaboration. <br>
+                        </h5>
+                            <!--                    </br> -->
+                            <div class="paper-title">
+                                <p align="justify">                                
+                                <a href="https://www.ceid.upatras.gr/webpages/faculty/vasilis/english/index.html"> Vasileios Megalooikonomou</a> (U of Patras), <a href="http://www.cs.cmu.edu/~christos/"> Christos Faloutsos</a> (CMU), <a href="http://www.lix.polytechnique.fr/~mvazirg/"> Michalis Vazirgiannis</a> (École Polytechnique), <a href="http://www.lix.polytechnique.fr/~giatsidis/"> Christos Giatsidis</a> (École Polytechnique),  <a href="https://gr.linkedin.com/in/amaliacharisi"> Amalia Charisi</a> (U of Patras), <a href="https://scholar.google.com/citations?user=g8tXMigAAAAJ&hl=el"> Evangelia I. Zacharaki</a> (U of Patras), <a href="http://www.thilikos.info/"> Dimitrios M. Thilikos</a> (U of Montpellie, CNRS and U of Athens), <a href="http://www.lix.polytechnique.fr/~rossi/"> Maria-Evgenia Rossi</a> (École Polytechnique), <a href="http://www.lix.polytechnique.fr/~kskianis/"> Konstantinos Skianis</a> (École Polytechnique), <a href="https://jcasasr.wordpress.com/"> Jordi Casas-Roma</a> (U Oberta de Catalunya and U Autònoma de Barcelona), <a href="http://delab.csd.auth.gr/~apostol/"> Apostolos N. Papadopoulos</a> (Aristotle U of Thessaloniki), <a href="https://uk.linkedin.com/in/charanpal-dhanjal-58925156/">  Charanpal Dhanjal</a> (Télécom ParisTech and Forebyte Ltd. London), <a href="http://www.lix.polytechnique.fr/~ntziortziotis/"> Nikolaos Tziortziotis</a> (École Polytechnique),  <a href="https://uk.linkedin.com/in/emmanouil-kiagias-398a1710a"> Emmanouil Kiagias </a> (Oracle, UK), <a href="http://www.lix.polytechnique.fr/~anti5662/">  Antoine J.-P. Tixier</a> (École Polytechnique)
+                                
+                            </div>
+                            <br>
+
+                    </div>
+                </div><span class="clear"></span>
+
+
+                <!--/section-->
+                <span class="clear"></span>
+                <div class="section noprint" id="misc">
+                    <h2 class="section-title"><span class="fa fa-heart-o"><i></i></span> Misc<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+                    <div class="paper-title">
+                                <p align="justify">
+                    <ul> <h5>
+                        <li><p>I come from <a href="http://en.wikipedia.org/wiki/Pellana">Pellana</a>, a small village 20 Km north of <a href="http://en.wikipedia.org/wiki/Sparta">Sparta</a>, <a href="http://en.wikipedia.org/wiki/Greece">Greece</a> </p> </li>
+
+                        <li><p> The island of <a href="https://goo.gl/HpLlI7">Elafonisos</a> in Laconia, Greece</p> </li>
+                    </h5></ul>
+                </div>    
+                    <span class="clear"></span>
+                </div>
+                <!--/section-->
+
+
+                <span class="clear"></span>
+                <div class="section noprint" id="contact">
+                    <h2 class="section-title">
+                        <span class="fa fa-map-marker"><i></i></span> Contact<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+                    <div class="infoline span9">
+                        <div class="row">
+                            <div class="span2 muted">
+                                Address
+                            </div>
+                            <div class="span7">
+                                Bâtiment Bouygues, CVN, Room 217 </br>
+                                CentraleSup&eacutelec, 8 rue Joliot-Curie </br>
+                                91190 Gif-sur-Yvette, France </br>    
+                            </div>
+                        </div>
+                    </div>
+                    <span class="clear"></span>
+                    <div class="infoline span9">
+                        <div class="row">
+                            <div class="span2 muted">
+                                Email
+                            </div>
+                            <div class="span7">
+                                <a href="mailto:fragkiskos.me@gmail.com">fragkiskos.me@gmail.com</a> </br>
+                                <a href="mailto:fragkiskos.malliaros@centralesupelec.fr">fragkiskos.malliaros@centralesupelec.fr</a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="clear"></span>
+                </div>
+                <!--/section-->
+                <!--/section-->
+            </div>
+            <!--/span9-->
+            <!-- END OF THE MAIN CONTENT -->
+            <!-- Sidebar placed on the RIGHT of the screen -->
+            <div class="span3 sbright noprint" id="sidebar">
+                <div class="sidebar-nav equal hidden-phone" style="height: 5544px;">
+                    <ul class="nav nav-list affix" id="resumenav">
+                        <li class="normal-font-weight"><a href="#about-me" class="scroller">About me</a></li>
+                        <li class="normal-font-weight"><a href="#news" class="scroller">News</a></li>
+                        <li class="normal-font-weight"><a href="#courses" class="scroller">Teaching</a></li>
+                        <li class="normal-font-weight"><a href="#papers" class="scroller">Publications</a></li>
+                        <li class="normal-font-weight"><a href="#coauthors" class="scroller">Collaborators</a></li>
+                        <li class="normal-font-weight"><a href="#misc" class="scroller">Misc</a></li>
+                        <li class="normal-font-weight"><a href="#contact" class="scroller">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/sidebar-nav -->
+                <span class="clear"></span>
+            </div>
+            <!--/span3 -->
+        </div>
+        <!--/row-->
+        <div id="footer">
+            Fragkiskos D. Malliaros - Last modified: Oct. 2017 - Stats: 
+
+ <a href="http://www3.clustrmaps.com/user/65b11c2e7"><img width="18" height="18" src="http://www3.clustrmaps.com/stats/maps-no_clusters/www.lix.polytechnique.fr-~fmalliaros--thumb.jpg" alt="Locations of visitors to this page" /></a>
+        </div>
+    </div>
+    <!--/.container-->
+    
+
+   
+           <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+                //
+                // Collapse the `fa` icons in News section
+                //
+                $('.collapse_news_icon').click(function(){
+                    if ($(this).hasClass('fa-minus-circle'))
+                    {
+                        $(this).addClass('fa-plus-circle').removeClass('fa-minus-circle');
+                    }
+                    else {
+                        $(this).removeClass('fa-plus-circle').addClass('fa-minus-circle');
+                    }
+                });
+                //
+                // Hover feature
+                //
+                $(".custom-fa-stack-format").mouseover(function(){
+                    $(this).find($('.fa-stack-2x')).removeClass('text-info').css('color', "#15506d");
+                }).mouseleave(function(){
+                    $(this).find($('.fa-stack-2x')).css('color', '#3a87ad');
+                });
+
+                $.ajax({
+                  type: 'GET',
+                  url: "news.json",
+                  success: function (news) {
+                    var list = '';
+                    var counter = 7;
+                    for (var j in news) {
+                        if (!!news[j].visible){
+                            list +=[
+                                '<div class="timeline-item">',
+                                    '<div class="timeline-item-date" style="min-width: 100px">',
+                                        '<b>' + news[j].date + '</b>',
+                                    '</div>',
+                                    '<div class="timeline-item-trigger">',
+                                        '<span class="fa-stack custom-fa-stack-format" data-toggle="collapse" data-target="#position_aaai17">',
+                                             '<span class="fa fa-circle fa-stack-2x custom-fa-level1-format" style="color: rgb(58, 135, 173);"></span>',
+                                             '<span class="fa fa-plus-circle fa-stack-1x fa-inverse custom-fa-level1-format collapse_news_icon"></span>',
+                                         '</span>',
+                                    '</div>',
+                                    '<div class="timeline-arrow">',
+                                        '<i></i>',
+                                    '</div>',
+                                    '<div class="timeline-item-content">',
+                                        '<h5 class="timeline-item-title" data-toggle="collapse" data-target="' + news[j].id + '">',
+                                            news[j].title,
+                                        '</h5>',
+                                        '<div id="' + news[j].id + '" class="collapse">',
+                                            news[j].description,
+                                        '</div>',
+                                    '</div>',
+                                '</div>'
+                            ].join('');
+                            counter -= 1;
+                            if (counter == 0) break;
+                        }
+                    }
+                    $("#append-news-list").append(list);
+                     
+                  },
+                  error: function () {
+                    window.reload();    
+                  }
+                });
+
+            });
+        </script>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105975794-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+   </body>
+   </html>
