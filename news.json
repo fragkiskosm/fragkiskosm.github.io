@@ -1,4 +1,9 @@
-[
+[{     "id": "news_68",
+        "date": "October 25, 2024",
+        "title": "Paper with Aref and Jhony got accepted to NeurIPS 2024!",
+        "description": "",
+        "visible": 1
+    },
 {     "id": "news_67",
         "date": "July 20, 2024",
         "title": "Paper with George, Nikos, and Michalis got accepted to Springer's Social Network Analysis and Mining journal!",
@@ -39,7 +44,7 @@
         "date": "Feb 1, 2024",
         "title": "Paper with Aref, Jhony, and Sepideh got accepted to the Digital Signal Processing journal!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_60",
         "date": "Oct 24, 2023",
