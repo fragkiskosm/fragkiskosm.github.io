@@ -1,4 +1,11 @@
-[{     "id": "news_68",
+[
+{       "id": "news_69",
+        "date": "November 22, 2024",
+        "title": "Paper in collavoration with Télécom Paris, La Rochelle Université, and University of Delaware got accepted to IEEE Transactions on Signal and Information Processing over Networks!",
+        "description": "",
+        "visible": 1
+    },    
+    {     "id": "news_68",
         "date": "October 25, 2024",
         "title": "Paper with Aref and Jhony got accepted to NeurIPS 2024!",
         "description": "",
