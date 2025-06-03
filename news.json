@@ -1,7 +1,25 @@
 [
+{     "id": "news_72",
+        "date": "May 1, 2025",
+        "title": "Paper with Yassine, Johannes, Amine, and Michalis got accepted to ICML 2025!",
+        "description": "",
+        "visible": 1
+    },     
+{     "id": "news_71",
+        "date": "April 28, 2025",
+        "title": "I was promoted to Full Professor (effective September 2024)!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_70",
+        "date": "April 18, 2025",
+        "title": "Three papers got accepted to TMLR!",
+        "description": "",
+        "visible": 1
+    },            
 {       "id": "news_69",
         "date": "November 22, 2024",
-        "title": "Paper in collavoration with Télécom Paris, La Rochelle Université, and University of Delaware got accepted to IEEE Transactions on Signal and Information Processing over Networks!",
+        "title": "Paper in collaboration with Télécom Paris, La Rochelle Université, and University of Delaware got accepted to IEEE Transactions on Signal and Information Processing over Networks!",
         "description": "",
         "visible": 1
     },    
@@ -11,41 +29,41 @@
         "description": "",
         "visible": 1
     },
-{     "id": "news_67",
-        "date": "July 20, 2024",
-        "title": "Paper with George, Nikos, and Michalis got accepted to Springer's Social Network Analysis and Mining journal!",
+{       "id": "news_67",
+        "date": "November 22, 2024",
+        "title": "Paper in collavoration with Télécom Paris, La Rochelle Université, and University of Delaware got accepted to IEEE Transactions on Signal and Information Processing over Networks!",
         "description": "",
-        "visible": 1
-    },    
+        "visible": 0
+    },      
 {     "id": "news_66",
         "date": "July 16, 2024",
         "title": "Two short papers got accepted to CIKM 2024! The first one is led by Rajaa in collaboration with collegues from Télécom Paris. The second one is lead by Daniele in collaboration with collegues from Politecnico di Bari and VentAI.",
         "description": "",
-        "visible": 1
+        "visible": 0
     },    
 {     "id": "news_65",
         "date": "June 29, 2024",
         "title": "Paper with Ali, Théo, Basile, Alexandre, Victor, and David got accepted to ICML'24 Workshop in ML for Life and Material Science (ML4LMS)!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },    
 {     "id": "news_64",
         "date": "May 5, 2024",
         "title": "Paper with George, Daniele, and Jun got accepted to ECML PKDD 2024!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_63",
         "date": "April 12, 2024",
         "title": "I defended my HDR entitled \"A Machine Learning Tour in Network Science\"!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_62",
         "date": "March 5, 2024",
         "title": "Paper with Jhon, Jhony, and Mohsen got accepted to IEEE Transactions on Neural Networks and Learning Systems!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
     {     "id": "news_61",
         "date": "Feb 1, 2024",
