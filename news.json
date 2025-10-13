@@ -1,4 +1,16 @@
 [
+{     "id": "news_76",
+        "date": "Oct 10, 2025",
+        "title": "Paper got accepted to the IEEE Journal of Biomedical and Health Informatics!",
+        "description": "",
+        "visible": 1
+    },     
+{     "id": "news_75",
+        "date": "Oct 1, 2025",
+        "title": "Paper got accepted to NeurIPS 2025!",
+        "description": "",
+        "visible": 1
+    },    
 {     "id": "news_74",
         "date": "August 6, 2025",
         "title": "Two long papers got accepted to CIKM 2025 and another one to RecSys 2025 (Late-Breaking Results track)!",
