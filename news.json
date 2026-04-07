@@ -1,4 +1,16 @@
 [
+{     "id": "news_78",
+        "date": "March 20, 2026",
+        "title": "Paper with Vahan, Daniele, Hugues, and Jhonyu got accepted to AISTATS!",
+        "description": "",
+        "visible": 1
+    },
+{     "id": "news_77",
+        "date": "March 15, 2026",
+        "title": "Paper led by Daniele got accepted to the IEEE TKDE!",
+        "description": "",
+        "visible": 1
+    },     
 {     "id": "news_76",
         "date": "Oct 10, 2025",
         "title": "Paper got accepted to the IEEE Journal of Biomedical and Health Informatics!",
@@ -39,13 +51,13 @@
         "date": "April 18, 2025",
         "title": "Three papers got accepted to TMLR!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },            
 {       "id": "news_69",
         "date": "November 22, 2024",
         "title": "Paper in collaboration with Télécom Paris, La Rochelle Université, and University of Delaware got accepted to IEEE Transactions on Signal and Information Processing over Networks!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },    
     {     "id": "news_68",
         "date": "October 25, 2024",
