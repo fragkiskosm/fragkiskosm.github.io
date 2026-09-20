@@ -1,4 +1,22 @@
 [
+{     "id": "news_83",
+        "date": "Sept 20, 2026",
+        "title": "Three full papers got accepted to the Learning on Graphs (LoG) conference!",
+        "description": "",
+        "visible": 1
+    },    
+{     "id": "news_82",
+        "date": "Sept 18, 2026",
+        "title": "Two papers got accepted to TMLR!",
+        "description": "",
+        "visible": 1
+    },      
+{     "id": "news_81",
+        "date": "July 5, 2026",
+        "title": "Paper with Ali got accepted to ICML!",
+        "description": "",
+        "visible": 1
+    },    
 {     "id": "news_80",
         "date": "March 20, 2026",
         "title": "Paper with Vahan, Daniele, Hugues, and Jhony got accepted to AISTATS!",
@@ -45,19 +63,19 @@
         "date": "June 27, 2025",
         "title": "I had the pleasure of delivering a keynote talk on \"Enhancing Graph Neural Networks with Topological Structures\" at the IAPR Workshop on Graph-Based Representations in Pattern Recognition in Caen, France! Many thanks to the organizers for the kind invitation!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },       
 {     "id": "news_72",
         "date": "May 1, 2025",
         "title": "Paper with Yassine, Johannes, Amine, and Michalis got accepted to ICML 2025!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },     
 {     "id": "news_71",
         "date": "April 28, 2025",
         "title": "I was promoted to Full Professor (effective September 2024)!",
         "description": "",
-        "visible": 1
+        "visible": 0
     },
 {     "id": "news_70",
         "date": "April 18, 2025",
