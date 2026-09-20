@@ -1,16 +1,28 @@
 [
-{     "id": "news_83",
+{     "id": "news_85",
         "date": "Sept 20, 2026",
         "title": "Three full papers got accepted to the Learning on Graphs (LoG) conference!",
         "description": "",
         "visible": 1
     },    
-{     "id": "news_82",
+{     "id": "news_84",
         "date": "Sept 18, 2026",
         "title": "Two papers got accepted to TMLR!",
         "description": "",
         "visible": 1
-    },      
+    },
+    {     "id": "news_83",
+        "date": "Aug 1, 2026",
+        "title": "Paper got accepted to the IEEE Journal of Biomedical and Health Informatics!",
+        "description": "",
+        "visible": 1
+    },
+    {     "id": "news_82",
+        "date": "July 20",
+        "title": "I had the pleasure of delivering a 3h lecture on graph machine learning on the \"Mathematical Foundations for Spatial Omics in Oncology\" organized at CIRM in Marseille. Many thanks to the organizing for the kind invitation!", 
+        "description": "",
+        "visible": 1
+    },        
 {     "id": "news_81",
         "date": "July 5, 2026",
         "title": "Paper with Ali got accepted to ICML!",
