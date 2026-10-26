@@ -1,4 +1,10 @@
 [
+{     "id": "news_86",
+        "date": "Oct 2, 2026",
+        "title": "One paper got accepted to NeurIPS 2026!",
+        "description": "",
+        "visible": 1
+    },     
 {     "id": "news_85",
         "date": "Sept 20, 2026",
         "title": "Three full papers got accepted to the Learning on Graphs (LoG) conference!",
