@@ -2,8 +2,8 @@
 {
     "id": "news_87",
     "date": "Oct 28, 2026",
-    "title": "<strong>We are hiring!</strong>",
-    "description": "<ul><li><a href=\"https://drive.google.com/file/d/10YY4EvBOKe8F54y_M55jO9BHeH4v0btQ/view\" target=\"_blank\">Postdoctoral position</a> (early 2027)</li><li><a href=\"https://drive.google.com/file/d/1Ab4DHdWhXfMAGDONDMESV3nW_PHAQY3N/view?usp=sharing\" target=\"_blank\">Research internship positions </a> (spring 2027)</li></ul>",
+    "title": "<strong>We are hiring!</strong> <ul><li><a href=\"https://drive.google.com/file/d/10YY4EvBOKe8F54y_M55jO9BHeH4v0btQ/view\" target=\"_blank\">Postdoctoral position</a> (early 2027)</li><li><a href=\"https://drive.google.com/file/d/1Ab4DHdWhXfMAGDONDMESV3nW_PHAQY3N/view?usp=sharing\" target=\"_blank\">Research internship positions </a> (spring 2027)</li></ul>",
+    "description": "",
     "visible": 1
 },       
 {     "id": "news_86",
